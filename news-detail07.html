@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=0">
+    <!-- Iphone 모바일 확대 방지  maximum-scale=1.0, user-scalable=0-->
+    <title>news 상세 페이지 - AA 아키그룹</title> 
+    <!-- swiper -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- google icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/import.css">
+    <!-- js -->
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="newsPage">
+        <header class="active">
+            <div class="contentSize">
+                <h1><a href="index.html" class="imgBox">AA archigroup</a></h1>
+                <nav class="m-lineBox">
+                    <ul class="mobileContentSize">
+                        <li>
+                            <a href="">About</a>
+                            <div class="GNB-about lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="CEO.html">CEO Message</a></li>
+                                    <li><a href="philosophy.html">Pilosophy</a></li>
+                                    <li><a href="vision.html">Vision</a></li>
+                                    <li><a href="people.html">People</a></li>
+                                    <li><a href="history.html">History</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="CI.html">CI</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Works</a>
+                            <div class="GNB-works lineBox">
+                                <ul class="contentSize01">
+                                    <li>
+                                        <a href="architecture.html">Architecture</a>
+                                        <ul>
+                                            <li>
+                                                <a href="architecture-active.html">Active</a>
+                                                <a href="architecture-active-hotel.html">호텔, 리조트</a>
+                                                <a href="architecture-active-complex.html">복합상업시설</a>
+                                                <a href="architecture-active-sports.html">스포츠</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-alive.html">Alive</a>
+                                                <a href="architecture-alive-dwelling.html">주거시설</a>
+                                                <a href="architecture-alive-work.html">업무시설</a>
+                                                <a href="architecture-alive-plan.html">도시계획, 마스터플랜</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-ahead.html">Ahead</a>
+                                                <a href="architecture-ahead-IT.html">IT시설</a>
+                                                <a href="architecture-ahead-education.html">교육, 연구시설</a>
+                                                <a href="architecture-ahead-medical.html">의료시설</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-advanced.html">Advanced</a>
+                                                <a href="architecture-advanced-technology.html">테크놀로지(반도체, 디스플레이, 배터리)</a>
+                                                <a href="architecture-advanced-industry.html">산업시설</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="works-CMDM.html">CM / DM</a></li>
+                                    <li><a href="works-technical.html">Technical support</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">News</a>
+                            <div class="GNB-news lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="announcement.html">Announcement</a></li>
+                                    <li><a href="award.html">Award</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Recruit</a>
+                            <div class="GNB-recruit lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="recruit-personnel.html">인사제도</a></li>
+                                    <li><a href="recruit-welfare.html">복리후생</a></li>
+                                    <li><a href="https://recruit.aaarchigroup.com" target="_blank">채용공고</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="searchArea">
+                        <button class="searchBtn">서치 버튼</button>
+                        <div>
+                            <input type="text" class="searchValue" placeholder="Search">
+                            <button class="searchClose">close</button>
+                        </div>
+                    </div>
+                    <div class="languageArea">
+                        <button class="languageBtn">KOR</button>
+                        <ul class="mobileContentSize">
+                            <li class="mobileActive"><a href="">KOR</a></li>
+                            <li><a href="">ENG</a></li>
+                        </ul>
+                    </div>
+                    <button class="imgBox">
+                        메뉴 열기
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="detailPage contentSize">
+            <h2 class="titleBox">News</h2>
+            <div class="titleArea">
+                <div>
+                    <h3>간삼건축, K배터리 공장 설계 신흥강자…MAPㆍ정림도 광폭행보</h3>
+                    <time>2023.03.29</time>
+                </div>
+            </div>
+            <div class="contentArea">
+                <div class="editor">
+                    <p>[CI Report] 하이테크 건축시장 ‘각축전’- 어떤 기업 뜨나</p>
+                    <div class="img01">
+                        <img src="images/newsImg07.jpg" alt="">
+                        <small>하이테크 설비 설계시장 누가 이끄나/ 그래픽 : 대한경제</small>
+                    </div>
+                    <p>[대한경제=안재민 기자]배터리ㆍ전기차ㆍ반도체 등 하이테크 첨단산업이 급성장하면서 삼성, LG, 현대 등 주요 그룹 계열사가 주도해왔던 설계시장에 일반건축의 강자들이 대거 뛰어들면서 판도 변화가 일고 있다.</p>
+                    <p>28일 건축업계에 따르면 최근 간삼건축종합건축사사무소, MAP건축종합건축사사무소, 정림건축종합건축사사무소 등이 국내 하이테크 설계시장을 이끄는 ‘뉴 플레이어’로 떠오르고 있다.</p>
+                    <p>간삼건축은 지난해 LG에너지솔루션 등의 배터리 생산 공장 설계 용역을 대거 수주하면서 하이테크 설계 시장의 신흥 강자로 떠올랐다.</p>
+                    <p>간삼건축은 올해 전체 그룹을 △설계디자인그룹 △사업기획그룹 △경영그룹으로 나눴다. 이 중 설계디자인그룹은 삼성전자, 현대차 등 대형 건축주가 발주한 하이테크 설계 용역을 전담한다.</p>
+                    <p>MAP건축도 광폭 행보다. 기존에 텃밭이었던 현대차 생산 공장 설계용역에 이어 최근에는 배터리 공장 설계 용역 수주고를 쌓는 모습이다.</p>
+                    <p>지난해에는 △에코프로글로벌 유럽 PJT 양극재 공장증설 설계용역 △SK 넥실리스 폴란드 공장 신축공사 △현대모비스 BSA2 모듈공장 신축공사(북미) 등을 신규 수주한 바 있다.</p>
+                    <p>정림건축의 경우 지난해 현대차 고급 브랜드 ‘제네시스’ 생산 공장 프로젝트를 대거 수주하며 주목받았다. 올해는 아예 현대차 전담조직(HMG설계단)까지 만들었다. 이외에도 하이테크센터(직영 서비스센터)와 전기차 충전소 e-PIT 등의 설계 용역을 신규로 수주했다.</p>
+                    <p>정림건축은 미국에 진출한 자동차 부품, 배터리사들의 생산시설 설계 용역 수주를 위해 현지 실사에 나서는 등 해외 동반진출에 힘쓰고 있다.</p>
+                    <p>아울러 국내 일반건축 분야 ‘톱 랭커’인 해안건축종합건축사사무소는 창조건축으로부터 하이테크 설계인력을 대거 영입하며 시장 진출을 노리고 있다.</p>
+                    <p>그동안 하이테크 설계 분야에서는 좀체 두각을 나타내지 못했던 희림종합건축사사무도 지난해 현대차 울산 신공장 건설 프로젝트, 용인 덕성리 데이터센터 설계 용역을 잇달아 수주하며 화려하게 데뷔했다.</p>
+                    <p>이들 신흥 강자와 더불어 AA아키그룹(구 현대종합설계), 삼우종합건축사사무소, 창조건축종합건축사사무소 등 전통의 하이테크 설계 강자도 여전히 시장 내 입지가 탄탄하다.</p>
+                    <p>특히 AA아키그룹의 경우 지난해 현대차그룹에서 매각되면서 하이테크 설계 수주 경쟁력을 잃을 것이라는 분석이 많았지만, 막상 뚜껑을 열고 보니 기존 현대차 물량에다 SK 등 타그룹 계열사 물량까지 배가되면서 되레 시장 지배력을 키우고 있다는 평가다.</p>
+                    <p>삼우건축과 창조건축도 기존 모그룹의 하이테크 발주 물량이 지속적으로 증가한 덕에 시장 내 입지가 더욱 두터워졌다.</p>
+                    <p>하이테크 설계 시장이 급성장하고 신규 건축사사무소가 가세하면서 ‘뺏고, 뺏기는’ 인력 쟁탈전은 더욱 심화됐다.</p>
+                    <p>일례로, 지난해 AA아키그룹이 홀로서기에 나서면서 상당수의 하이테크 인력이 타사로 이직했다. 그러다 AA아키그룹이 안정화단계에 접어들자, 다시 타사로부터 하이테크 인력 채용을 늘리고 있다. 해안건축도 하이테크 설계 인력을 지속적으로 뽑고 있는 상황이다.</p>
+                    <p>한 건축사사무소 하이테크 담당 임원은 “아파트, 주택 등 일반 건축분야에 비해 특정 산업, 기계 등에 대한 전문성이 필요한 하이테크 설계 분야는 한정된 물량 탓에 전문인력 양성에 상당한 시간이 걸린다”며, “5년차 이하 하이테크 설계인력이 태부족인 상황이어서 앞으로도 업계 내 인력 쟁탈전이 더욱 치열해질 것”이라고 우려했다.</p>
+                    <p>안재민기자 jmahn@</p>
+                    <p>〈ⓒ 대한경제신문(www.dnews.co.kr), 무단전재 및 수집, 재배포금지〉</p>
+                </div>
+                <a href="news.html" class="link-list">목록으로</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contentSize">
+                <h2><img src="images/logo.png" alt="AA Archigroup"></h2>
+                <address>
+                    <p>서울특별시 서대문구 충정로 23</p>
+                    <p>Tel. 02)2187-0500/0709</p>
+                </address>
+                <ul class="snsBox">
+                    <li>
+                        <a href=""><img src="images/icon-SNS01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS03.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="contentSize">
+                    COPYRIGHT © 2023 AA Archigroup Inc. ALL RIGHTS RESERVED
+                    <a href="Https://bid.hda.co.kr" target="_blank">
+                        <b>전자조달시스템</b>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

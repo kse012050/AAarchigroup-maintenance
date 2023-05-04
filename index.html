@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=0">
+    <!-- Iphone 모바일 확대 방지  maximum-scale=1.0, user-scalable=0-->
+    <title>AA 아키그룹</title> 
+    <!-- swiper -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- google icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/import.css">
+    <!-- js -->
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="mainPage">
+        <header>
+            <div class="contentSize">
+                <h1><a href="index.html" class="imgBox">AA archigroup</a></h1>
+                <nav class="m-lineBox">
+                    <ul class="mobileContentSize">
+                        <li>
+                            <a href="">About</a>
+                            <div class="GNB-about lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="CEO.html">CEO Message</a></li>
+                                    <li><a href="philosophy.html">Pilosophy</a></li>
+                                    <li><a href="vision.html">Vision</a></li>
+                                    <li><a href="people.html">People</a></li>
+                                    <li><a href="history.html">History</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="CI.html">CI</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Works</a>
+                            <div class="GNB-works lineBox">
+                                <ul class="contentSize01">
+                                    <li>
+                                        <a href="architecture.html">Architecture</a>
+                                        <ul>
+                                            <li>
+                                                <a href="architecture-active.html">Active</a>
+                                                <a href="architecture-active-hotel.html">호텔, 리조트</a>
+                                                <a href="architecture-active-complex.html">복합상업시설</a>
+                                                <a href="architecture-active-sports.html">스포츠</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-alive.html">Alive</a>
+                                                <a href="architecture-alive-dwelling.html">주거시설</a>
+                                                <a href="architecture-alive-work.html">업무시설</a>
+                                                <a href="architecture-alive-plan.html">도시계획, 마스터플랜</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-ahead.html">Ahead</a>
+                                                <a href="architecture-ahead-IT.html">IT시설</a>
+                                                <a href="architecture-ahead-education.html">교육, 연구시설</a>
+                                                <a href="architecture-ahead-medical.html">의료시설</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-advanced.html">Advanced</a>
+                                                <a href="architecture-advanced-technology.html">테크놀로지(반도체, 디스플레이, 배터리)</a>
+                                                <a href="architecture-advanced-industry.html">산업시설</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="works-CMDM.html">CM / DM</a></li>
+                                    <li><a href="works-technical.html">Technical support</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">News</a>
+                            <div class="GNB-news lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="announcement.html">Announcement</a></li>
+                                    <li><a href="award.html">Award</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Recruit</a>
+                            <div class="GNB-recruit lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="recruit-personnel.html">인사제도</a></li>
+                                    <li><a href="recruit-welfare.html">복리후생</a></li>
+                                    <li><a href="https://recruit.aaarchigroup.com" target="_blank">채용공고</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="searchArea">
+                        <button class="searchBtn">서치 버튼</button>
+                        <div>
+                            <input type="text" class="searchValue" placeholder="Search">
+                            <button class="searchClose">close</button>
+                        </div>
+                    </div>
+                    <div class="languageArea">
+                        <button class="languageBtn">KOR</button>
+                        <ul class="mobileContentSize">
+                            <li class="mobileActive"><a href="">KOR</a></li>
+                            <li><a href="">ENG</a></li>
+                        </ul>
+                    </div>
+                    <button class="imgBox">
+                        메뉴 열기
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="sliderArea">
+            <h2 class="textHidden">slider</h2>
+            <div class="swiper mainSwiper lineBox">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide mainSlider01">
+                        <div class="contentSize01">
+                            <p>
+                                <small>SEAMARQ HOTEL GANGNEUNG</small>
+                                강릉 씨마크호텔
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider02">
+                        <div class="contentSize01">
+                            <p>
+                                <small>HYUNDAI DEPARTMENT STORE PANGYO</small>
+                                현대백화점 판교점
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider03">
+                        <div class="contentSize01">
+                            <p>
+                                <small>HYUNDAI MOTOR STUDIO GOYANG</small>
+                                현대모터스튜디오 고양
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider04">
+                        <div class="contentSize01">
+                            <p>
+                                <small>SUNGUI STADIUM</small>
+                                숭의운동장 도시개발사업
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider05">
+                        <div class="contentSize01">
+                            <p>
+                                <small>GIMPO HYANGSAN DEVELOPMENT (HILLSTATE RIVERCITY)</small>
+                                김포 향산지구 도시개발사업 (힐스테이트 리버시티)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider06">
+                        <div class="contentSize01">
+                            <p>
+                                <small>DAEGU MBC PLOT MIX-USE BUILDING DEVELOPMENT</small>
+                                대구 MBC부지 주상복합
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider07">
+                        <div class="contentSize01">
+                            <p>
+                                <small>NH IT CENTER</small>
+                                NH 통합 IT 센터
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider08">
+                        <div class="contentSize01">
+                            <p>
+                                <small>DONGDUK WOMEN’S UNIVERSITY CENTENNIAL MEMORIAL HALL</small>
+                                동덕여자대학교 100주년 기념관
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider09">
+                        <div class="contentSize01">
+                            <p>
+                                <small>SK HYNIX ICHEON M14 FAB</small>
+                                SK하이닉스 이천 M14 반도체 FAB
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider10">
+                        <div class="contentSize01">
+                            <p>
+                                <small>SK HYNIX CHEONGJU M11 FAB</small>
+                                SK하이닉스 청주 M11 반도체 FAB
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider11">
+                        <div class="contentSize01">
+                            <p>
+                                <small>KIA MOTORS MEXICO PLANT</small>
+                                기아자동차 멕시코 공장
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mainSlider12">
+                        <div class="contentSize01">
+                            <p>
+                                <small>HYUNDAI STEEL DANGJIN COLD-ROLLED MILL</small>
+                                현대하이코스 당진 제2냉연공장
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="titleArea">
+                    <div class="contentSize01">
+                        <h3>
+                            Create the Great<br>
+                            <small>
+                                New start 2023
+                            </small>
+                        </h3>
+                    </div>
+                </div>
+                <div class="sliderPager">
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="controlArea">
+                    <div class="contentSize01">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="infoArea">
+            <div class="contentSize01">
+                <h2>
+                    AA아키그룹은
+                    <small>
+                        탄탄한 기술력으로 쌓아온 신뢰의 기반 위에 한 차원 높은<br>
+                        디자인 경쟁력으로 시장을 선도하는 혁신의 글로벌 디자인 名家
+                    </small>
+                </h2>
+                <p>
+                    AA아키그룹은 반세기가 지나는 동안 창조적인 디자인과 축적된 기술을 바탕으로<br>
+                    건축설계 발전에 노력하며 국내 최고의 하이테크 설계 분야 정상을 지켜왔습니다.<br>
+                </p>
+                <p>
+                    이제 AA아키그룹은 ‘설계-CM/감리-디벨로퍼’라는 AA아키그룹만의 ‘AA Chain’을<br>
+                    통해 사업 시너지를 극대화하고 종합부동산 • 건설그룹의 새로운 패러다임을<br>
+                    만들어 가고 있습니다.
+                </p>
+                <b>
+                    앞으로 AA아키그룹은 도전과 혁신을 통해<br>
+                    Total Solution Company로 도약하겠습니다.
+                </b>
+                <img src="images/main-infoImg.png" alt="">
+            </div>
+        </section>
+
+        <div class="worksArea">
+            <ul>
+                <li>
+                    <a href="architecture.html" class="mobileContentSize">
+                        <div>
+                            <strong>Architecture</strong>
+                            <p>
+                                각 분야별 전문화된 설계 팀과 사내 전문 시공 부서의 유기적인 협업을 통한 차별화된<br class="all">
+                                디자인과 기술력이 반영된 최상의 설계를 추구하고 있습니다.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="works-CMDM.html" class="mobileContentSize">
+                        <div>
+                            <strong>CM</strong>
+                            <p>
+                                전문화된 노하우와 다양한 프로젝트 수행 경험을 바탕으로 건설사업 전 단계에서<br class="PCBr">
+                                설계, 시공,<br class="tabletBr"> 엔지니어링 기술이 유기적으로 조합된 최적의 건설사업관리 서비스를 제공하고 있습니다.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="works-CMDM.html" class="mobileContentSize">
+                        <div>
+                            <strong>DM</strong>
+                            <p>
+                                Design & Build, Turn-Key 등 복잡하고 다양한 Project의 모든 설계관리를 통해<br class="PCBr">
+                                성공적인<br class="tabletBr"> 사업을 보장해 드리며, Value Engineering, 공기단축 등 최상의 서비스를<br class="PCBr">
+                                제공합니다.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="works-technical.html" class="mobileContentSize">
+                        <div>
+                            <strong>Technical support</strong>
+                            <p>
+                                <span class="PCTablet">
+                                    우수한 기술력을 바탕으로 프로젝트 초기 단계부터 시공 단계 및 유지관리 단계에 이르기까지<br>
+                                    전 과정에 걸쳐 다양한 기술용역업무를 수행하고 있습니다.
+                                </span>
+                                <span class="mobile">
+                                    반도체 및 디스플레이 생산라인, 바이오
+                                    산업시설 등 다양한  특수 분야 전문서비스를
+                                    보증합니다.
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <span class="test"></span>
+        </div>
+
+        <section class="newsArea contentSize">
+            <h2><mark>NEWS</mark></h2>
+            <ul class="list-news postText">
+                <li>
+                    <a href="news-detail10.html">
+                        <div class="imgBox" style="background-image: url('images/newsImg10.png');"></div>
+                        <time>2023.04.14</time>
+                        <p>[데스크칼럼] ISO 19650</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="news-detail09.html">
+                        <div class="imgBox" style="background-image: url('images/newsImg09.png');"></div>
+                        <time>2023.04.10</time>
+                        <p>3조 규모 ‘백현마이스 도시개발사업’ 누구 품에</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="news-detail07.html">
+                        <div class="imgBox" style="background-image: url('images/newsImg07.jpg');"></div>
+                        <time>2023.03.29</time>
+                        <p>간삼건축, K배터리 공장 설계 신흥강자…MAPㆍ정림도 광폭행보</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="news.html" class="link-basic">뉴스 더보기</a>
+        </section>
+
+        <section class="recruitArea">
+            <div class="contentSize">
+                <h2><mark>RECRUIT</mark></h2>
+                <p>
+                    디자인 경쟁력으로 시장을 선도하는 혁신의
+                    아키그룹과 함께할 인재를 기다립니다.
+                </p>
+                <a href="https://recruit.aaarchigroup.com" class="link-white" target="_blank">채용사이트 바로가기</a>
+            </div>
+            <span class="test"></span>
+        </section>
+
+        <footer>
+            <div class="contentSize">
+                <h2><img src="images/logo.png" alt="AA Archigroup"></h2>
+                <address>
+                    <p>서울특별시 서대문구 충정로 23</p>
+                    <p>Tel. 02)2187-0500/0709</p>
+                </address>
+                <ul class="snsBox">
+                    <li>
+                        <a href=""><img src="images/icon-SNS01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS03.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="contentSize">
+                    COPYRIGHT © 2023 AA Archigroup Inc. ALL RIGHTS RESERVED
+                    <a href="Https://bid.hda.co.kr" target="_blank">
+                        <b>전자조달시스템</b>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
