@@ -438,6 +438,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing03{background-image: url('../images/people-design03.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing04{background-image: url('../images/people-design04.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing05{background-image: url('../images/people-design05.png');}
+.peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing06{background-image: url('../images/people-design06.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech01{background-image: url('../images/people-highTech01.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech02{background-image: url('../images/people-highTech02.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech03{background-image: url('../images/people-highTech03.png');}
@@ -448,6 +449,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech08{background-image: url('../images/people-highTech07.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.strategyArea li:nth-child(1){background-image: url('../images/people-strategy01.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.strategyArea li:nth-child(2){background-image: url('../images/people-strategy02.png');}
+.peoplePage .basicPage .tabContent .peopleArea ul.strategyArea li:nth-child(3){background-image: url('../images/people-strategy03.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.managementArea li:nth-child(1){background-image: url('../images/people-management01.png');}
 .peoplePage .basicPage .tabContent .peopleArea ul.managementArea li:nth-child(2){background-image: url('../images/people-management02.png');}
 .peoplePage .basicPage .tabContent .groupArea{position: relative;}
