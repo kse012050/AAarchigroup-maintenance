@@ -14,19 +14,19 @@
 /* 메인페이지 */
 /* 메인페이지 - 최상위 슬라이더 */
 .mainPage .mainSwiper{z-index: 2;}
-.mainPage .mainSwiper .swiper-slide{color: white; box-sizing: border-box; background-repeat: no-repeat; background-position: bottom center; background-size: cover;}
-.mainPage .mainSwiper .swiper-slide.mainSlider01{background-image: url('../images/mainSlider01.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider02{background-image: url('../images/mainSlider02.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider03{background-image: url('../images/mainSlider03.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider04{background-image: url('../images/mainSlider04.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider05{background-image: url('../images/mainSlider05.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider06{background-image: url('../images/mainSlider06.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider07{background-image: url('../images/mainSlider07.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider08{background-image: url('../images/mainSlider08.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider09{background-image: url('../images/mainSlider09.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider10{background-image: url('../images/mainSlider10.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider11{background-image: url('../images/mainSlider11.png');}
-.mainPage .mainSwiper .swiper-slide.mainSlider12{background-image: url('../images/mainSlider12.png');}
+.mainPage .mainSwiper .swiper-slide{color: white; box-sizing: border-box; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.mainPage .mainSwiper .swiper-slide.mainSlider01{background-image: url('../images/m-mainSlider01.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider02{background-image: url('../images/m-mainSlider02.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider03{background-image: url('../images/m-mainSlider03.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider04{background-image: url('../images/m-mainSlider04.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider05{background-image: url('../images/m-mainSlider05.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider06{background-image: url('../images/m-mainSlider06.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider07{background-image: url('../images/m-mainSlider07.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider08{background-image: url('../images/m-mainSlider08.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider09{background-image: url('../images/m-mainSlider09.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider10{background-image: url('../images/m-mainSlider10.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider11{background-image: url('../images/m-mainSlider11.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider12{background-image: url('../images/m-mainSlider12.jpg');}
 .mainPage .mainSwiper .swiper-slide div{height: 100%; display: flex; flex-direction: column;}
 .mainPage .mainSwiper .swiper-slide div p{padding-top: 192px; font-size: 14px; font-weight: 500; line-height: 20px;}
 .mainPage .mainSwiper .swiper-slide div p small{display: block; font-size: 12px; font-weight: 200; line-height: 15px; margin-bottom: 2px;}
