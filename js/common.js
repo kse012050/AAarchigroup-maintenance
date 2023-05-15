@@ -3,9 +3,9 @@ let isMobile;
 
 $(document).ready(function(){
     // announcementPage 클릭 막기 나중에 삭제
-    $('.announcementPage .boardArea a').click(function(e){
-        e.preventDefault();
-    })
+    // $('.announcementPage .boardArea a').click(function(e){
+    //     e.preventDefault();
+    // })
 
     // 모바일 판별
     responsiveEvent();
@@ -32,22 +32,14 @@ $(document).ready(function(){
     // 전문적 지식 상세 페이지
     $('.worksPage .detailPage').length && worksDetail();
     
-
-    $('.historyPage aside a').click(function(e){
-        e.preventDefault();
-        $('.historyPage aside a').removeClass('active');
-        $(this).addClass('active');
-        $('.rightArea ul').removeClass('active');
-        $('.rightArea ul').eq($(this).index()).addClass('active');
-    })
-
-    $('.tabBtn li').click(function(){
-        $('.tabBtn li').removeClass('active');
-        $(this).addClass('active');
-        $('.tabContent > *').removeClass('active');
-        $('.tabContent > *').eq($(this).index()).addClass('active');
-    })
-
+    // history 페이지
+    $('.historyPage').length && historyPage();
+    
+    
+    // people 페이지
+    $('.historyPage').length && peoplePage();
+    
+    
     // 페이저네이션 클릭 막기
     pagerBox();
 
@@ -58,6 +50,7 @@ $(document).ready(function(){
 
 // 메뉴
 function GNBEvent(){
+    // 언어 hover event
     $('header > div > div .languageArea').hover(function(){
         !isMobile && $(this).find('ul').stop().slideDown();
     },function(){
@@ -81,6 +74,7 @@ function GNBEvent(){
         }
     })
 
+    // 검색 버튼
     $('.searchClose').click(function(){
         if(isMobile)return;
         $(this).parent().removeClass('active');
@@ -93,6 +87,7 @@ function GNBEvent(){
         location.href = './search-All.html'
     })
 
+    // 해더 설정
     let isHeaderActive;
     $('header > div nav > ul > li > a').click(function(e){
         if(!$(this).next().length || isMobile)return;
@@ -161,6 +156,7 @@ function mainPage(){
         },
         autoplay: {
             delay: 5000,
+            disableOnInteraction: false
         },
     });
 }
@@ -195,6 +191,28 @@ function pagerBox(){
         }
     })
 }
+
+// history 페이지
+function historyPage(){
+    $('.historyPage aside a').click(function(e){
+        e.preventDefault();
+        $('.historyPage aside a').removeClass('active');
+        $(this).addClass('active');
+        $('.rightArea ul').removeClass('active');
+        $('.rightArea ul').eq($(this).index()).addClass('active');
+    })
+}
+
+// people 페이지
+function peoplePage(){
+    $('.tabBtn li').click(function(){
+        $('.tabBtn li').removeClass('active');
+        $(this).addClass('active');
+        $('.tabContent > *').removeClass('active');
+        $('.tabContent > *').eq($(this).index()).addClass('active');
+    })
+}
+
 
 // 모바일 판별
 function responsiveEvent(){
