@@ -32,7 +32,6 @@ br:not(.all , .mobileBr){display: none;}
 /* 리스트 공통 */
 [class|="list"]:not(.list-news){display: flex; flex-wrap: wrap;}
 [class|="list"] li a{display: block;}
-[class|="list"] li a:has(.imgBox:not([style])){pointer-events: none;}
 [class|="list"] li a :is(small , time){display: block; max-width: 250px; font-size: 10px; font-weight: 400; color: #5D5D5D; line-height: 15px; margin-bottom: 2px;}
 .list-news li:not(:last-child){margin-bottom: 40px;}
 .list-news li a{display: block;}

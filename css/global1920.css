@@ -32,7 +32,6 @@
 /* 리스트 공통 */
 [class|="list"]{display: flex; flex-wrap: wrap;}
 [class|="list"] li a{display: block;}
-[class|="list"] li a:has(.imgBox:not([style])){pointer-events: none;}
 [class|="list"] li a .imgBox{margin-bottom: 15px;}
 [class|="list"] li a *:not(.imgBox){padding: 0 12px;}
 [class|="list"] li a :is(small , time){display: block; max-width: 250px; font-size: 16px; font-weight: 400; color: #5D5D5D; line-height: 27px;}

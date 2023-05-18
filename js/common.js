@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 
     // 에디터 이미지 크기 조정
-    // $(':is(.newsPage , .announcementPage) .detailPage').length > 0 && editor();
+    $(':is(.newsPage , .announcementPage) .detailPage').length > 0 && editor();
 })
 
 // 메뉴
@@ -232,13 +232,13 @@ function mobileFull(){
 
 
 // 에디터 이미지 크기 조정
-// function editor(){
-//     $(':is(.newsPage , .announcementPage) .detailPage').length && $('.detailPage .contentArea img').each(function(){
-//         let imgWidth = $(this).width();
-//         $(this).css({
-//             width : imgWidth ,
-//             maxWidth : '100%',
-//             height : 'auto'
-//         })
-//     })
-// }
+function editor(){
+    $(':is(.newsPage , .announcementPage) .detailPage').length && $('.detailPage .contentArea img').each(function(){
+        let imgWidth = $(this).width();
+        $(this).css({
+            width : imgWidth ,
+            maxWidth : '100%',
+            height : 'auto'
+        })
+    })
+}

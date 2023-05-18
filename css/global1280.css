@@ -31,7 +31,6 @@
 /* 리스트 공통 */
 [class|="list"]{display: flex; flex-wrap: wrap;}
 [class|="list"] li a{display: block;}
-[class|="list"] li a:has(.imgBox:not([style])){pointer-events: none;}
 [class|="list"] li a :is(small , time){display: block; max-width: 250px; font-size: 12px; font-weight: 400; color: #5D5D5D; line-height: 17px; margin-bottom: 2px;}
 [class|="list"] li a small{font-size: 12px; font-weight: 400;line-height: 17px; color: #888888; margin-bottom: 2px;}
 .list-news{gap: 60px 12px;}
