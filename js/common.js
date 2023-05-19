@@ -37,7 +37,7 @@ $(document).ready(function(){
     
     
     // people 페이지
-    $('.historyPage').length && peoplePage();
+    $('.peoplePage').length && peoplePage();
     
     
     // 페이저네이션 클릭 막기
