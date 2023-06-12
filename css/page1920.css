@@ -117,7 +117,8 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .CEOPage section figure figcaption p{font-size: 16px; font-weight: 400; color: #5D5D5D; line-height: 24px;}
 .CEOPage section figure figcaption p:not(:last-child){margin-bottom: 24px;}
 .CEOPage section figure figcaption strong{margin-top: auto; margin-left: auto; font-size: 32px; font-weight: 500; line-height: 46px;  display: flex; align-items: flex-end;}
-.CEOPage section figure figcaption strong b{font-size: 20px; line-height: 29px; margin-right: 16px; margin-bottom: 4px;}
+.CEOPage section figure figcaption strong b{font-size: 20px; line-height: 29px; margin-right: 16px;}
+.CEOPage section figure figcaption strong img{width: 85px;}
 
 
 /* 비전 페이지 */
