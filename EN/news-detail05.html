@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=0">
+    <!-- Iphone 모바일 확대 방지  maximum-scale=1.0, user-scalable=0-->
+    <title>news 상세 페이지 - AA 아키그룹</title>
+    <meta name="description" content="AA아키그룹, 에이에이아키그룹, 에이에이아키그룹건축사사무소, AA아키그룹건축사사무소"/>
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="images/favicon.ico">
+    <!-- swiper -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- google icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/import.css">
+    <!-- js -->
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="newsPage">
+        <header class="active">
+            <div class="contentSize">
+                <h1><a href="index.html" class="imgBox">AA archigroup</a></h1>
+                <nav class="m-lineBox">
+                    <ul class="mobileContentSize">
+                        <li>
+                            <a href="">About</a>
+                            <div class="GNB-about lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="CEO.html">CEO Message</a></li>
+                                    <li><a href="philosophy.html">Philosophy</a></li>
+                                    <li><a href="vision.html">Vision</a></li>
+                                    <li><a href="people.html">People</a></li>
+                                    <li><a href="history.html">History</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="CI.html">CI</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Works</a>
+                            <div class="GNB-works lineBox">
+                                <ul class="contentSize01">
+                                    <li>
+                                        <a href="architecture.html">Architecture</a>
+                                        <ul>
+                                            <li>
+                                                <a href="architecture-active.html">Active</a>
+                                                <a href="architecture-active-hotel.html">호텔, 리조트</a>
+                                                <a href="architecture-active-complex.html">복합상업시설</a>
+                                                <a href="architecture-active-sports.html">스포츠</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-alive.html">Alive</a>
+                                                <a href="architecture-alive-dwelling.html">주거시설</a>
+                                                <a href="architecture-alive-work.html">업무시설</a>
+                                                <a href="architecture-alive-plan.html">도시계획, 마스터플랜</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-ahead.html">Ahead</a>
+                                                <a href="architecture-ahead-IT.html">IT시설</a>
+                                                <a href="architecture-ahead-education.html">교육, 연구시설</a>
+                                                <a href="architecture-ahead-medical.html">의료시설</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-advanced.html">Advanced</a>
+                                                <a href="architecture-advanced-technology.html">테크놀로지(반도체, 디스플레이, 배터리)</a>
+                                                <a href="architecture-advanced-industry.html">산업시설</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="works-CMDM.html">CM / DM</a></li>
+                                    <li><a href="works-technical.html">Technical support</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">News</a>
+                            <div class="GNB-news lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="announcement.html">Announcement</a></li>
+                                    <li><a href="award.html">Award</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Recruit</a>
+                            <div class="GNB-recruit lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="recruit-personnel.html">인사제도</a></li>
+                                    <li><a href="recruit-welfare.html">복리후생</a></li>
+                                    <li><a href="https://recruit.aaarchigroup.com" target="_blank">채용공고</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="searchArea">
+                        <button class="searchBtn">서치 버튼</button>
+                        <div>
+                            <input type="text" class="searchValue" placeholder="Search">
+                            <button class="searchClose">close</button>
+                        </div>
+                    </div>
+                    <div class="languageArea">
+                        <button class="languageBtn">KOR</button>
+                        <ul class="mobileContentSize">
+                            <li class="mobileActive"><a href="">KOR</a></li>
+                            <li><a href="">ENG</a></li>
+                        </ul>
+                    </div>
+                    <button class="imgBox">
+                        메뉴 열기
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="detailPage contentSize">
+            <h2 class="titleBox">News</h2>
+            <div class="titleArea">
+                <div>
+                    <h3>현대종합설계, 현대차그룹 떠나 홀로서기 나선다…김길상 신임 대표 취임</h3>
+                    <time>2022.09.08</time>
+                </div>
+            </div>
+            <div class="contentArea">
+                <div class="editor">
+                    <p>“글로벌 디자인회사로 성장” 포부</p>
+                    <div class="personArea">
+                        <img src="images/editor-img03.png" alt="">
+                        <small>김길상 현대종합설계 대표</small>
+                    </div>
+                    <p>[e대한경제=채희찬 기자] 현대종합설계건축사사무소(대표 김길상ㆍ이하 현대종합설계)가 현대자동차그룹을 떠나 홀로서기에 나서 귀추가 주목된다.</p>
+                    <p>신임 대표는 서울주택도시공사(SH공사) 본부장 출신의 김길상 대표로, 5년 뒤 매출 기준 국내 업계 1위란 목표와 향후 글로벌 디자인회사로 성장하겠다는 비전을 제시했다.</p>
+                    <p>7일 관련 업계에 따르면 현대건설은 지난 달 29일 키스톤어반홀딩스에 현대종합설계 보통주 18만6531주를 전량 매각했다.</p>
+                    <p>매각 대금은 소액 주주 지분 전량 인수금액을 포함해 300억원 안팎으로 알려졌다.</p>
+                    <p>이와 함께 키스톤어반홀딩스의 현대종합설계 인수는 공정거래위원회 기업 결합 심사를 통과해 매각 절차를 완료했다.</p>
+                    <p>키스톤어반홀딩스는 키스톤PE가 재무적투자자로 나섰고, 인보건축사사무소(이하 인보건축)와 에이앤유디자인그룹건축사사무소(이하 ANU), 씨티엔지니어링이 전략적투자자로 가세했다.</p>
+                    <p>이로써 1965년 현대건설 건축부 설계실로 출발해 2001년 종합건축사사무소 큐브엔지니어링으로 독립했다가 2011년 다시 현대자동차그룹으로 편입된 현대종합설계는 11년 만에 홀로서게 됐다.</p>
+                    <p>현대종합설계의 신임 대표는SH공사 본부장 출신의 김길상 대표로 1인 경영 체제로 운영된다.</p>
+                    <div class="img03">
+                        <img src="images/news-detail05-img02.jpg" alt="">
+                        <small>지난 1일 김길상 현대종합설계 대표가 서울 종로구 계동 현대빌딩에서 취임식을 갖고 중장기 운영 방향을 제시했다./사진=현대종합설계</small>
+                    </div>
+                    <p>김길상 신임 대표는 지난 1일 취임식에서 “향후 5년 뒤인 2027년 매출 기준 국내 업계 1위를 목표로 하고 있으며, 그 후 세계를 상대로 하는 글로벌 디자인회사로 성장하겠다”는 포부를 밝혔다.</p>
+                    <p>그는 또 경영 원칙으로 ‘신뢰’와 ‘혁신’을 제시하고, 중장기 운영 방향을 밝혔다.</p>
+                    <p>먼저 기존 현대차그룹과의 연계와 신뢰를 강화해 산업시설 수주에 총력을 기울이고, 최고의 디자인 역량을 바탕으로 주거시설 및 일반시설 수주를 확장하기로 했다.</p>
+                    <p>회사가 지닌 산업시설 설계 노하우를 살려 사업 영역을 확장하고, 디자인 및 영업 역량을 강화해 그 동안 취약했던 공공기관 및 시공사, 시행사 등이 발주하는 공동주택이나 일반건축물 설계 수주에 박차를 가해 현대차그룹에서 분리되는 것을 전화위복의 기회로 삼겠다는 것이다.</p>
+                    <p>이와 함께 경쟁사에 비해 미미했던 감리부문 매출을 확대하기로 했다.</p>
+                    <p>이를 위해 빠른 시일 안에 실적이 있는 감리회사를 인수하는 동시에 ‘기술연구소’를 설립하고, 감리조직을 정비하며 우수 인력을 충원해 수주 역량을 키울 예정이다.</p>
+                    <p>아울러 공기업이 추진하는 리스크가 적은 ‘시행’사업에 적극 참여하기로 했다.</p>
+                    <p>한국토지주택공사(LH)나 SH공사 등 공기업이 추진하고 있는 ‘매입임대주택사업’이나 ‘자율주택정비사업’등의 시행사업을 추진해 설계사무소가 지닌 한계를 극복해 블루오션으로 키울 계획이다.</p>
+                    <p>이 밖에 공정한 평가와 보상을 통해 우수 직원을 확보하고, 활발한 소통을 통해 직원의 화합을 이룰 방침이다.</p>
+                    <p>
+                        김 대표는 “상호 시너지를 극대화할 수 있는 ‘시행-설계-감리’의 유기적 결합을 통해 매출을 극대화할 계획”이라며 “오는 12월 중순쯤 새로운 사명을 갖고 새 사옥으로 이전해 새출발에 나설 것”이라고 말했다.<br>
+                        채희찬기자 chc@
+                    </p>
+                    <p>〈ⓒ e대한경제신문(www.dnews.co.kr), 무단전재 및 수집, 재배포금지〉</p>
+                </div>
+                <a href="news.html" class="link-list">목록으로</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contentSize">
+                <h2><img src="images/logo.png" alt="AA Archigroup"></h2>
+                <address>
+                    <p>서울특별시 서대문구 충정로 23</p>
+                    <p>Tel. 02)2187-0500/0709</p>
+                </address>
+                <ul class="snsBox">
+                    <li>
+                        <a href=""><img src="images/icon-SNS01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS03.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="contentSize">
+                    COPYRIGHT © 2023 AA Archigroup Inc. ALL RIGHTS RESERVED
+                    <a href="Https://bid.hda.co.kr" target="_blank">
+                        <b>전자조달시스템</b>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

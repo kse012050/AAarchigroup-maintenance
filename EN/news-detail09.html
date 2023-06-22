@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=0">
+    <!-- Iphone 모바일 확대 방지  maximum-scale=1.0, user-scalable=0-->
+    <title>news 상세 페이지 - AA 아키그룹</title>
+    <meta name="description" content="AA아키그룹, 에이에이아키그룹, 에이에이아키그룹건축사사무소, AA아키그룹건축사사무소"/>
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="images/favicon.ico">
+    <!-- swiper -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- google icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/import.css">
+    <!-- js -->
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="newsPage">
+        <header class="active">
+            <div class="contentSize">
+                <h1><a href="index.html" class="imgBox">AA archigroup</a></h1>
+                <nav class="m-lineBox">
+                    <ul class="mobileContentSize">
+                        <li>
+                            <a href="">About</a>
+                            <div class="GNB-about lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="CEO.html">CEO Message</a></li>
+                                    <li><a href="philosophy.html">Philosophy</a></li>
+                                    <li><a href="vision.html">Vision</a></li>
+                                    <li><a href="people.html">People</a></li>
+                                    <li><a href="history.html">History</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="CI.html">CI</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Works</a>
+                            <div class="GNB-works lineBox">
+                                <ul class="contentSize01">
+                                    <li>
+                                        <a href="architecture.html">Architecture</a>
+                                        <ul>
+                                            <li>
+                                                <a href="architecture-active.html">Active</a>
+                                                <a href="architecture-active-hotel.html">호텔, 리조트</a>
+                                                <a href="architecture-active-complex.html">복합상업시설</a>
+                                                <a href="architecture-active-sports.html">스포츠</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-alive.html">Alive</a>
+                                                <a href="architecture-alive-dwelling.html">주거시설</a>
+                                                <a href="architecture-alive-work.html">업무시설</a>
+                                                <a href="architecture-alive-plan.html">도시계획, 마스터플랜</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-ahead.html">Ahead</a>
+                                                <a href="architecture-ahead-IT.html">IT시설</a>
+                                                <a href="architecture-ahead-education.html">교육, 연구시설</a>
+                                                <a href="architecture-ahead-medical.html">의료시설</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-advanced.html">Advanced</a>
+                                                <a href="architecture-advanced-technology.html">테크놀로지(반도체, 디스플레이, 배터리)</a>
+                                                <a href="architecture-advanced-industry.html">산업시설</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="works-CMDM.html">CM / DM</a></li>
+                                    <li><a href="works-technical.html">Technical support</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">News</a>
+                            <div class="GNB-news lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="announcement.html">Announcement</a></li>
+                                    <li><a href="award.html">Award</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Recruit</a>
+                            <div class="GNB-recruit lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="recruit-personnel.html">인사제도</a></li>
+                                    <li><a href="recruit-welfare.html">복리후생</a></li>
+                                    <li><a href="https://recruit.aaarchigroup.com" target="_blank">채용공고</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="searchArea">
+                        <button class="searchBtn">서치 버튼</button>
+                        <div>
+                            <input type="text" class="searchValue" placeholder="Search">
+                            <button class="searchClose">close</button>
+                        </div>
+                    </div>
+                    <div class="languageArea">
+                        <button class="languageBtn">KOR</button>
+                        <ul class="mobileContentSize">
+                            <li class="mobileActive"><a href="">KOR</a></li>
+                            <li><a href="">ENG</a></li>
+                        </ul>
+                    </div>
+                    <button class="imgBox">
+                        메뉴 열기
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="detailPage contentSize">
+            <h2 class="titleBox">News</h2>
+            <div class="titleArea">
+                <div>
+                    <h3>3조 규모 ‘백현마이스 도시개발사업’ 누구 품에</h3>
+                    <time>2023.04.10</time>
+                </div>
+            </div>
+            <div class="contentArea">
+                <div class="editor">
+                    <p>DL이앤씨ㆍGS건설ㆍ한화 3파전 구도…“대장동 방지법 이윤율 3% 불과”</p>
+                    <p>[대한경제=채희찬 기자] 총사업비가 3조원에 육박하는 ‘백현마이스 도시개발사업’이 누구 품에 돌아갈 지 귀추가 주목된다.</p>
+                    <p>9일 도시개발 업계와 관계기관에 따르면, 성남도시개발공사는 이 사업에 대한 민간참여자 신청서 및 사업참여계획서를 오는 5월 22일 접수할 계획이다.</p>
+                    <p>이 사업은 경기도 성남시 분당구 정자동 1번지 일원 20만6350.2㎡ 터에 판교테크노밸리와 연계해 전시 및 회의, 관광 등 성남시가 추구하는 ‘4차산업 기반 글로벌 시티’를 지원하는 마이스산업 복합단지를 조성하는 것으로, 부지 10만2562.3㎡는 상업용지, 나머지는 주차장 및 공원, 도로 등 도시기반시설용지로 계획됐다.</p>
+                    <div class="img01">
+                        <img src="images/newsImg08.png" alt="">
+                        <small>‘백현마이스 도시개발사업’ 위치도./사진=성남도시개발공사</small>
+                    </div>
+                    <p>상업용지는 △전시컨벤션 3만1115.8㎡ △복합업무시설 2만7177.3㎡ △업무시설 3만3555.9㎡ △관광휴양 및 숙박시설 1만713.3㎡ 등으로, 이 가운데 전시컨벤션은 민간참여자가 성남시에 기부채납하고 5년 간 운영해야 한다.</p>
+                    <p>또 복합업무시설용지에는 전용면적 85㎡ 이하의 공동주택(10년 임대주택) 420가구 이상을 지어야 한다.</p>
+                    <p>아울러 컨소시엄 구성원 중 건설사업자는 시공능력평가액(이하 시평액) 상위 30위 이내 3개사까지 가능하고, 시평액 상위 10개사 중 1곳을 포함해야 한다.</p>
+                    <p>사업참여계획서는 개발계획(320점), 공공기여계획(100점), 개발실현계획(240점), 사업수행 능력 및 추진계획(340점) 등으로 평가한다.</p>
+                    <p>이 중 사업수행 능력 및 추진계획은 법인 설립 및 사업수행 능력(140점), 사업성 확보계획(100점), 재원조달 및 운용계획(100점)을 평가하는데 사업성 확보계획의 민간참여자 이윤율(30점)과 이익환원계획(20점)은 정량 평가한다.</p>
+                    <p>민간참여자 이윤율은 10%를 초과하면 0점을 받고, 6% 이하를 제시하면 만점이다.</p>
+                    <p>또 이익환원계획은 30% 이상을 제시하면 만점을 받아 이 두 항목에서 만점을 받으려면 민간참여자 이윤율은 4.2%의 이윤율을 제시해야 하는 셈이다.</p>
+                    <p>이 사업에는 DL이앤씨 및 GS건설, 한화가 대표사로 컨소시엄을 구성하며 사업계획서를 수립하고 있다.</p>
+                    <p>DL이앤씨는 메리츠금융, 유니퀘스트(입주사) 등과 컨소시엄을 구성하고, 희림 및 행림건축, AA아키그룹에 설계를 맡겼다.</p>
+                    <p>GS건설은 한양, 코오롱글로벌, KB은행, KB증권, 하나증권, 화이트코리아(시행), 핍스웨이브(PM) 등과 컨소시엄을 꾸렸고, 디에이그룹엔지니어링종합건축사사무소, 나우동인건축사사무소, 에이앤유디자인그룹건축사사무소가 설계를 수행한다.</p>
+                    <p>한화는 미래에셋자산운용, 해안건축 등과 손을 잡았고, 삼성물산과 컨소시엄 구성을 협의 중이다.</p>
+                    <p>삼성물산은 내부 투자심사를 거쳐 다음 주쯤 참가 여부를 결정할 예정이다.</p>
+                    <p>삼성물산은 지난 2021년 성남시의 삼평동 부지를 사들인 엔씨소프트 컨소시엄에 참여한 바 있다.</p>
+                    <p>관련 업계 관계자는 “이른바 ‘대장동 방지법’으로 이윤율을 4.2%로 제한하고 전시컨벤션 운영비 부담도 있어 사실상 이윤율은 3%에 불과하다”며 “그래도 미래 일감 확보 차원에서 3개 컨소시엄이 준비하는데 기업 유치 계획이 중요해 GS건설과 한화 팀이 어떤 입주사와 손잡을 지 관심”이라고 말했다.</p>
+                    <p>채희찬 기자 chc@</p>
+                    <p>〈ⓒ 대한경제신문(www.dnews.co.kr), 무단전재 및 수집, 재배포금지〉</p>
+                </div>
+                <a href="news.html" class="link-list">목록으로</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contentSize">
+                <h2><img src="images/logo.png" alt="AA Archigroup"></h2>
+                <address>
+                    <p>서울특별시 서대문구 충정로 23</p>
+                    <p>Tel. 02)2187-0500/0709</p>
+                </address>
+                <ul class="snsBox">
+                    <li>
+                        <a href=""><img src="images/icon-SNS01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS03.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="contentSize">
+                    COPYRIGHT © 2023 AA Archigroup Inc. ALL RIGHTS RESERVED
+                    <a href="Https://bid.hda.co.kr" target="_blank">
+                        <b>전자조달시스템</b>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

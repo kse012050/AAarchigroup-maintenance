@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=0">
+    <!-- Iphone 모바일 확대 방지  maximum-scale=1.0, user-scalable=0-->
+    <title>news 상세 페이지 - AA 아키그룹</title>
+    <meta name="description" content="AA아키그룹, 에이에이아키그룹, 에이에이아키그룹건축사사무소, AA아키그룹건축사사무소"/>
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="images/favicon.ico">
+    <!-- swiper -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- google icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/import.css">
+    <!-- js -->
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="newsPage">
+        <header class="active">
+            <div class="contentSize">
+                <h1><a href="index.html" class="imgBox">AA archigroup</a></h1>
+                <nav class="m-lineBox">
+                    <ul class="mobileContentSize">
+                        <li>
+                            <a href="">About</a>
+                            <div class="GNB-about lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="CEO.html">CEO Message</a></li>
+                                    <li><a href="philosophy.html">Philosophy</a></li>
+                                    <li><a href="vision.html">Vision</a></li>
+                                    <li><a href="people.html">People</a></li>
+                                    <li><a href="history.html">History</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="CI.html">CI</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Works</a>
+                            <div class="GNB-works lineBox">
+                                <ul class="contentSize01">
+                                    <li>
+                                        <a href="architecture.html">Architecture</a>
+                                        <ul>
+                                            <li>
+                                                <a href="architecture-active.html">Active</a>
+                                                <a href="architecture-active-hotel.html">호텔, 리조트</a>
+                                                <a href="architecture-active-complex.html">복합상업시설</a>
+                                                <a href="architecture-active-sports.html">스포츠</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-alive.html">Alive</a>
+                                                <a href="architecture-alive-dwelling.html">주거시설</a>
+                                                <a href="architecture-alive-work.html">업무시설</a>
+                                                <a href="architecture-alive-plan.html">도시계획, 마스터플랜</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-ahead.html">Ahead</a>
+                                                <a href="architecture-ahead-IT.html">IT시설</a>
+                                                <a href="architecture-ahead-education.html">교육, 연구시설</a>
+                                                <a href="architecture-ahead-medical.html">의료시설</a>
+                                            </li>
+                                            <li>
+                                                <a href="architecture-advanced.html">Advanced</a>
+                                                <a href="architecture-advanced-technology.html">테크놀로지(반도체, 디스플레이, 배터리)</a>
+                                                <a href="architecture-advanced-industry.html">산업시설</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="works-CMDM.html">CM / DM</a></li>
+                                    <li><a href="works-technical.html">Technical support</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">News</a>
+                            <div class="GNB-news lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="announcement.html">Announcement</a></li>
+                                    <li><a href="award.html">Award</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Recruit</a>
+                            <div class="GNB-recruit lineBox">
+                                <ul class="contentSize01">
+                                    <li><a href="recruit-personnel.html">인사제도</a></li>
+                                    <li><a href="recruit-welfare.html">복리후생</a></li>
+                                    <li><a href="https://recruit.aaarchigroup.com" target="_blank">채용공고</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="searchArea">
+                        <button class="searchBtn">서치 버튼</button>
+                        <div>
+                            <input type="text" class="searchValue" placeholder="Search">
+                            <button class="searchClose">close</button>
+                        </div>
+                    </div>
+                    <div class="languageArea">
+                        <button class="languageBtn">KOR</button>
+                        <ul class="mobileContentSize">
+                            <li class="mobileActive"><a href="">KOR</a></li>
+                            <li><a href="">ENG</a></li>
+                        </ul>
+                    </div>
+                    <button class="imgBox">
+                        메뉴 열기
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="detailPage contentSize">
+            <h2 class="titleBox">News</h2>
+            <div class="titleArea">
+                <div>
+                    <h3>[데스크칼럼] ISO 19650</h3>
+                    <time>2023.04.14</time>
+                </div>
+            </div>
+            <div class="contentArea">
+                <div class="editor">
+                    <p>김태형 건설기술부 부장</p>
+                    <p>[대한경제=김태형 기자] ISO 19650. 디지털 전환(DX)이 대세인 요즘 건설산업계에서 ‘핫(hot)’한 국제인증이다. 건물 및 토목 공사에 BIM(건설정보모델링)을 적용하기 위한 국제표준 코드다.</p>
+                    <img src="images/newsImg10-detail.jpg" alt="" class="leftImg">
+                    <p>삼성물산과 현대건설, 포스코이앤씨, GS건설이 이미 인증을 받았고, DL이앤씨와 대우건설, SK에코엔지니어링이 인증 절차를 밟고 있다. 한국공항공사와 한국도로공사 등 공공 발주처를 비롯해 태성에스앤아이, KCIM, 한울씨앤비 등 BIM 전문기업까지 인증 대열에 가세했다. AA아키그룹(옛 현대종합설계)과 더부엔지니어링도 인증을 추진 중이다. 13일 현재 한국기업 11곳이 ISO 19650 인증을 취득했다.</p>
+                    <p>ISO 19650이 주목받는 이유는 건설환경의 디지털 전환 때문이다. BIM은 기존의 2차원(2D) 도면을 객체 정보가 담긴 3D 모델로 전환한 것이다. 건설사업의 성패를 가르는 원가(비용)와 공정(시간), 품질(신용)을 효율적으로 관리해주는 ‘디지털 정거장(플랫폼)’이자, 4차 산업혁명 시대에 건설산업이 장착해야 할 ‘디지털 언어’로 불린다. 디지털트윈이나 메타버스도 BIM을 기반으로 구축한다.</p>
+                    <p>하지만 전문가들이 평가한 국내 BIM 성숙도는 전체 4단계(도입기∼지능화) 중 초기 도입기인 ‘레벨1’에 수년째 머물러 있다. 주무부처인 국토교통부와 공공 발주기관들이 ‘BIM 의무화’를 앞다퉈 추진하고, ‘BIM 활성화’를 위해 건설기업들을 떠미는데도 BIM이 좀체 확산되지 않고 있다. 건설현장의 ‘필수품’으로 자리잡지 못한 채 여전히 ‘납품용’ 신세다.</p>
+                    <p>바른 진단과 처방이 중요하다. 주된 원인은 BIM에 관한 약속된 표준과 체계가 없어서다. ISO 19650은 영국에서 일반적으로 사용되는 ‘BIM 레벨 2’를 구현하기 위한 세부 절차와 기준을 2018년 국제화한 것이다. BIM 정보관리와 운영, 협업 역량, 프로젝트 수행 사례 등 총 26개 분야에서 300여개 항목을 깐깐하게 검증ㆍ심사한다. 이를 통해 발주자와 원도급자, 하도급자 등 사업 주체별로 BIM 기반 정보관리를 위한 각각의 역할과 업무 절차를 구축한다. 1∼2년마다 BIM 담당자가 교체되는 국내 기업의 여건 상 개인을 넘어 조직의 역량을 시스템화하는데 보탬이 된다. 무엇보다 국제 기준의 엄격한 검증ㆍ심사를 거친만큼 신뢰할만한 글로벌 역량을 갖췄다는 증표다.</p>
+                    <p>해외 발주처도 ISO 19650을 원하고 있다. 초대형 미래도시 프로젝트인 사우디아라비아의 ‘네옴시티’ 입찰 조건에 필수요건으로 담겼고, UAE(아랍에미리트)와 싱가포르, 홍콩 등은 ISO 19650을 기준으로 BIM 국가지침을 개정했다. 이외에도 많은 국가가 공공사업에서 BIM인증 보유여부를 확인하거나 BIM 국제표준 준수를 요구하고 있다.</p>
+                    <p>BIM은 건설산업의 디지털 전환과 생산성 혁신을 위한 유용한 수단이다. 그리고 ISO 19650은 BIM이란 무기를 잘 갈고 닦아서 쓸 수 있게 만들어주는 보조재다. 자칫 유행처럼 인증 행렬로 그쳐선 곤란하다. 혁신은 오래 묵은 조합의 결과물이다.</p>
+                    <p>김태형 기자 kth@</p>
+                    <p>〈ⓒ 대한경제신문(www.dnews.co.kr), 무단전재 및 수집, 재배포금지〉</p>
+                </div>
+                <a href="news.html" class="link-list">목록으로</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contentSize">
+                <h2><img src="images/logo.png" alt="AA Archigroup"></h2>
+                <address>
+                    <p>서울특별시 서대문구 충정로 23</p>
+                    <p>Tel. 02)2187-0500/0709</p>
+                </address>
+                <ul class="snsBox">
+                    <li>
+                        <a href=""><img src="images/icon-SNS01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/icon-SNS03.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="contentSize">
+                    COPYRIGHT © 2023 AA Archigroup Inc. ALL RIGHTS RESERVED
+                    <a href="Https://bid.hda.co.kr" target="_blank">
+                        <b>전자조달시스템</b>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

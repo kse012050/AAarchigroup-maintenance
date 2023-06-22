@@ -1,0 +1,17 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+/* @import url('https://use.typekit.net/pbk1jvv.css'); */
+@import url("https://use.typekit.net/pbk1jvv.css");
+/* 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'allumi-std', sans-serif;
+*/
+
+@import url('reset.css');
+@import url('global.css');
+@import url('global1920.css') screen and (min-width: 1801px);
+@import url('page1920.css') screen and (min-width: 1801px);
+@import url('global1280.css') screen and (min-width: 1201px) and (max-width: 1800px);
+@import url('page1280.css') screen and (min-width: 1201px) and (max-width: 1800px);
+@import url('global360.css') screen and (max-width: 1200px);
+@import url('page360.css') screen and (max-width: 1200px);
