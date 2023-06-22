@@ -1,0 +1,42 @@
+/* 폰트 */
+/* allumi std */
+header,
+.mainPage .mainSwiper .titleArea,
+.mainPage .mainSwiper .swiper-slide div h3,
+.mainPage .mainSwiper .swiper-slide div p small,
+.mainPage .worksArea ul li > a div strong,
+.mainPage :is(.newsArea , .recruitArea) h2,
+[class|="titleBox"],
+.CEOPage section figure figcaption h3,
+.peoplePage .basicPage .tabBtn li:first-child,
+.CIPage section ul li.colorArea,
+.worksPage .archiPage .topArea > div div a,
+.worksPage section .titleArea h2,
+.recruitPage section .topArea > div h2 small,
+.searchPage section h2,
+.searchPage section > .linkArea a,
+.recruitPage .personnelPage .contentArea .compensationSystem ol li div::before,
+.recruitPage .personnelPage .contentArea .compensationSystem ol li div b::before,
+:is(.visionPage , .philosophyPage) section h2,
+.CIPage section > div .colorArea strong,
+.CIPage section > div .colorArea ul
+{font-family: 'allumi-std', sans-serif;}
+/* Noto Sans KR */
+[class|="GNB"] > ul > li > ul li a:not(:first-child),
+.GNB-recruit > ul > li a
+{font-family: 'Noto Sans KR', sans-serif;}
+
+/* 접근성 */
+.textHidden{height: 0.01px; overflow: hidden;}
+
+
+/* 이미지 */
+.imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.lineBox[title]{position: relative; overflow: hidden;}
+.lineBox[title]::before{content: attr(title); position: absolute; transform: translateY(-100%);}
+
+
+/* 포인트 색상 */
+mark:not([class]){color: #B4094D;}
+mark.white{color: white;}
+
