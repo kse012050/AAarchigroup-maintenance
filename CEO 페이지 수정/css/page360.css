@@ -328,7 +328,6 @@
 .announcementPage section{padding: 86px 0 80px;}
 
 /* 발표 페이지 - 메인 페이지 */
-.announcementPage .basicPage{min-height: 100vh;}
 .announcementPage .basicPage h2{margin-bottom: 40px;}
 .announcementPage .basicPage > div{font-size: 14px; font-weight: 400; color: #888888; line-height: 20px;}
 .announcementPage .basicPage > div .boardTitle{display: none;}

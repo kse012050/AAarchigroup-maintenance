@@ -353,7 +353,6 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .announcementPage section{padding: 174px 0 200px;}
 
 /* 발표 페이지 - 메인 페이지 */
-.announcementPage .basicPage{min-height: 100vh;}
 .announcementPage .basicPage{display: flex; justify-content: space-between;}
 .announcementPage .basicPage > div{width: 1231px; font-size: 18px; font-weight: 400; color: #888888; line-height: 26px;}
 .announcementPage .basicPage > div :is(.boardTitle , .boardArea li a){display: flex; align-items: center; padding: 0 60px 0 20px; border-style: solid;}
