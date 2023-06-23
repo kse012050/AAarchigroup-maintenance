@@ -14,7 +14,7 @@
 /* 메인페이지 */
 /* 메인페이지 - 최상위 슬라이더 */
 .mainPage .mainSwiper{z-index: 2;}
-.mainPage .mainSwiper .swiper-slide{color: white; box-sizing: border-box; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.mainPage .mainSwiper .swiper-slide{color: white; box-sizing: border-box; background-repeat: no-repeat; background-position: bottom center; background-size: cover;}
 .mainPage .mainSwiper .swiper-slide.mainSlider01{background-image: url('../images/m-mainSlider01.jpg');}
 .mainPage .mainSwiper .swiper-slide.mainSlider02{background-image: url('../images/m-mainSlider02.jpg');}
 .mainPage .mainSwiper .swiper-slide.mainSlider03{background-image: url('../images/m-mainSlider03.jpg');}
@@ -80,6 +80,7 @@
 .mainPage .newsArea ul{margin-bottom: 60px;}
 .mainPage .newsArea ul.postText:not(:has(:nth-child(1)))::before{padding: 64px 0 135px;}
 .mainPage .newsArea ul.postText:not(:has(:nth-child(1))) + .link-basic{display: none;}
+.mainPage .newsArea ul li a .imgBox:is(:not([style]) ,[style='']){background-image: url('../images/m-news-img.png');}
 
 
 /* 메인페이지 - 커리어 */
@@ -316,19 +317,20 @@
 .newsPage section{padding: 86px 0 80px;}
 /* 뉴스 페이지 - 뉴스 */
 .newsPage section .list-news li a .imgBox{height: 221px;}
+.newsPage section .list-news li a .imgBox:is(:not([style]) ,[style='']){background-image: url('../images/m-news-img.png');}
 .newsPage section .list-news li a *:not(.imgBox){padding: 0;}
 .newsPage section .list-news li a time{line-height: 17px; margin-bottom: 2px; color: #888888;}
 .newsPage section .list-news.postText:not(:has(:nth-child(1)))::before{padding: 240px 0 279px;}
 .newsPage section .list-news.postText:not(:has(:nth-child(1))) + a{display: none;}
 /* 뉴스 페이지 - 메인 페이지 */
-.newsPage .basicPage > a{margin: 60px auto 0;}
+.newsPage .basicPage > button{margin: 60px auto 0;}
 
 
 /* 발표 페이지 */
 .announcementPage section{padding: 86px 0 80px;}
 
 /* 발표 페이지 - 메인 페이지 */
-.announcementPage .basicPage{min-height: 100vh;}
+.announcementPage .basicPage{min-height: calc(100vh - 299px);}
 .announcementPage .basicPage h2{margin-bottom: 40px;}
 .announcementPage .basicPage > div{font-size: 14px; font-weight: 400; color: #888888; line-height: 20px;}
 .announcementPage .basicPage > div .boardTitle{display: none;}
@@ -365,12 +367,14 @@
 /* 서치 페이지 */
 .searchPage section{padding: 86px 0 80px;}
 .searchPage section h2{font-size: 28px; font-weight: 700; line-height: 36px; text-align: center; margin-bottom: 10px;}
-.searchPage section > p{font-size: 14px; font-weight: 400; color: #aaa; line-height: 20px; text-align: center; margin-bottom: 64px;}
+.searchPage section > p{/* display: none; */ font-size: 14px; font-weight: 400; color: #aaa; line-height: 20px; text-align: center; margin-bottom: 64px;}
 .searchPage section > p b{color: #1a1a1a;}
 .searchPage section > p b::before,
 .searchPage section > p b::after{content: '"'; color: #aaa;}
 .searchPage section > p mark{font-weight: 500; margin-left: 8px;}
 .searchPage section > p mark::after{content: '건';}
+.searchPage section > p:not(.active) *{display: none;}
+.searchPage section > p:not(.active)::after{content: '검색어를 입력해주세요'; display: block;}
 .searchPage section > form .searchArea{ position: relative; margin-bottom: 44px;}
 .searchPage section > form .searchArea input{width: 100%; height: 36px; font-size: 14px; padding: 0 12px; border: 1px solid #C7C7C7; box-sizing: border-box; outline: none;}
 .searchPage section > form .searchArea input::placeholder{color: #C7C7C7;}
@@ -406,31 +410,12 @@
 .peoplePage .basicPage .tabContent .peopleArea ul li{background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; padding-bottom: max(59.34% , 197px);}
 .peoplePage .basicPage .tabContent .peopleArea ul.ceoArea li{width: 100%;}
 .peoplePage .basicPage .tabContent .peopleArea ul:not(.ceoArea) li{width: calc((100% - 4px) / 2);}
-.peoplePage .basicPage .tabContent .peopleArea ul li.imgNone{background-image: url('../images/m-people-img.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul li::after{content: ''; position: absolute; right: 16px; bottom: 16px; width: 26px; height: 26px; background: url('../images/icon-people.png') no-repeat center / cover;}
+.peoplePage .basicPage .tabContent .peopleArea ul li::after{content: ''; position: absolute; right: 16px; bottom: 16px; width: 26px; height: 26px; background: url('../images/icon-people.png') no-repeat center / cover; z-index: 1; pointer-events: none;}
 .peoplePage .basicPage .tabContent .peopleArea ul li a{position: absolute; left: 0; top: 0; width: 100%; height: 100%; padding: 9px 8px; box-sizing: border-box; z-index: 1;}
 .peoplePage .basicPage .tabContent .peopleArea ul li a small{display: block; font-size: 11px; font-weight: 400; line-height: 16px;}
 .peoplePage .basicPage .tabContent .peopleArea ul li a strong{display: block; font-size: 16px; font-weight: 500; line-height: 24px;}
-.peoplePage .basicPage .tabContent .peopleArea ul.ceoArea li{background-image: url('../images/m-people-img01.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing01{background-image: url('../images/m-people-design01.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing02{background-image: url('../images/m-people-design02.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing03{background-image: url('../images/m-people-design03.jpg');}
-.peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing04{background-image: url('../images/m-people-design04.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing05{background-image: url('../images/m-people-design05.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.designArea li.desing06{background-image: url('../images/m-people-design06.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech01{background-image: url('../images/m-people-highTech01.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech02{background-image: url('../images/m-people-highTech02.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech03{background-image: url('../images/m-people-highTech03.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech04{background-image: url('../images/m-people-highTech04-01.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech05{background-image: url('../images/m-people-highTech04.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech06{background-image: url('../images/m-people-highTech05.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech07{background-image: url('../images/m-people-highTech06.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.highTechArea li.highTech08{background-image: url('../images/m-people-highTech07.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.strategyArea li:nth-child(1){background-image: url('../images/m-people-strategy01.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.strategyArea li:nth-child(2){background-image: url('../images/m-people-strategy02.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.strategyArea li:nth-child(3){background-image: url('../images/m-people-strategy03.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.managementArea li:nth-child(1){background-image: url('../images/m-people-management01.png');}
-.peoplePage .basicPage .tabContent .peopleArea ul.managementArea li:nth-child(2){background-image: url('../images/m-people-management02.png');}
+.peoplePage .basicPage .tabContent .peopleArea ul li a div{position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: -1;}
+.peoplePage .basicPage .tabContent .peopleArea ul li a div:is(:not([style]) ,[style='']){background-image: url('../images/m-people-active-img.png');}
 .peoplePage .basicPage .tabContent .groupArea div{margin-bottom: 80px;}
 .peoplePage .basicPage .tabContent .groupArea div strong{display: block; font-size: 18px; line-height: 26.5px; font-weight: 500; margin-bottom: 40px;}
 .peoplePage .basicPage .tabContent .groupArea div p{font-size: 13px; font-weight: 400; line-height: 19.8px; color: #5D5D5D;}
@@ -438,28 +423,8 @@
 /* 인물 페이지 - 상세 */
 .peoplePage .detailPage{padding-top: 86px; padding-bottom: 80px;}
 .peoplePage .detailPage h2{line-height: 37px; margin-bottom: 39px;}
-.peoplePage .detailPage .imgBox{/* height: 180px; */ padding-bottom: max(54.22% , 180px); margin-bottom: 18px;}
-.peoplePage .detailPage.ceo .imgBox{background-image: url('../images/m-people-detail01.png');}
-.peoplePage .detailPage.design01 .imgBox{background-image: url('../images/m-people-detail-design01.png');}
-.peoplePage .detailPage.design02 .imgBox{background-image: url('../images/m-people-detail-design02.png');}
-.peoplePage .detailPage.design03 .imgBox{background-image: url('../images/m-people-detail-design03.png');}
-.peoplePage .detailPage.design04 .imgBox{background-image: url('../images/m-people-detail-design04.png');}
-.peoplePage .detailPage.design05 .imgBox{background-image: url('../images/m-people-detail-design05.png');}
-.peoplePage .detailPage.design06 .imgBox{background-image: url('../images/m-people-detail-design06.png');}
-.peoplePage .detailPage.highTech01 .imgBox{background-image: url('../images/m-people-detail-highTech01.png');}
-.peoplePage .detailPage.highTech02 .imgBox{background-image: url('../images/m-people-detail-highTech02.png');}
-.peoplePage .detailPage.highTech03 .imgBox{background-image: url('../images/m-people-detail-highTech03.png');}
-.peoplePage .detailPage.highTech04-01 .imgBox{background-image: url('../images/m-people-detail-highTech04-01.png');}
-.peoplePage .detailPage.highTech04 .imgBox{background-image: url('../images/m-people-detail-highTech04.png');}
-.peoplePage .detailPage.highTech05 .imgBox{background-image: url('../images/m-people-detail-highTech05.png');}
-.peoplePage .detailPage.highTech06 .imgBox{background-image: url('../images/m-people-detail-highTech06.png');}
-.peoplePage .detailPage.highTech07 .imgBox{background-image: url('../images/m-people-detail-highTech07.png');}
-.peoplePage .detailPage.strategy01 .imgBox{background-image: url('../images/m-people-detail-strategy01.png');}
-.peoplePage .detailPage.strategy02 .imgBox{background-image: url('../images/m-people-detail-strategy02.png');}
-.peoplePage .detailPage.strategy03 .imgBox{background-image: url('../images/m-people-detail-strategy03.png');}
-.peoplePage .detailPage.management01 .imgBox{background-image: url('../images/m-people-detail-management01.png');}
-.peoplePage .detailPage.management02 .imgBox{background-image: url('../images/m-people-detail-management02.png');}
-.peoplePage .detailPage .imgBox.imgNone{background-image: url('../images/people-detail-img.png');}
+.peoplePage .detailPage .imgBox{padding-bottom: max(54.22% , 180px); margin-bottom: 18px;}
+.peoplePage .detailPage .imgBox:is(:not([style]) ,[style='']){background-image: url('../images/people-detail-img.png');}
 .peoplePage .detailPage h3{font-size: 18px; font-weight: 500; line-height: 26px; display: flex; align-items: flex-end; padding-bottom: 8px; border-bottom: 2px solid #b40a50; margin-bottom: 36px;}
 .peoplePage .detailPage h3 small{font-size: 12px; font-weight: 400; line-height: 20px; margin-left: 12px; margin-bottom: -1px;}
 .peoplePage .detailPage h3:not(:has(+ .infoArea)){margin-bottom: 160px;}
