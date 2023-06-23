@@ -50,7 +50,7 @@
 .mainPage .infoArea > div img{position: absolute; right: 0; bottom: -5px; width: 254px; z-index: -1;}
 
 /* 메인페이지 - 워크 */
-.mainPage .worksArea{position: relative;}
+.mainPage .worksArea{position: relative; margin-bottom: 50px;}
 .mainPage .worksArea ul{color: white;}
 .mainPage .worksArea ul li{ box-sizing: border-box; background-repeat: no-repeat; background-position: center; background-size: cover;}
 .mainPage .worksArea ul li:not(:last-child){border-bottom: 1px solid #aaa;}

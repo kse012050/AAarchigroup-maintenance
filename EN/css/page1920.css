@@ -47,7 +47,7 @@
 .mainPage .infoArea > div img{position: absolute; right: -32px; bottom: -16px; width: 779px; }
 
 /* 메인페이지 - 워크 */
-.mainPage .worksArea{position: relative;}
+.mainPage .worksArea{position: relative; margin-bottom: 50px;}
 .mainPage .worksArea ul{display: flex; flex-wrap: wrap;
 color: #aaa; transition: background-image 0.5s; position: relative;}
 .mainPage .worksArea ul::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url('../images/main-serviceBG.png'); background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1;}
