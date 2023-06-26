@@ -426,8 +426,8 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 /* 인물 페이지 - 메인 */
 .peoplePage .basicPage .tabBtn{display: flex; border-bottom: 1px solid #C7C7C7; margin-bottom: 48px;}
 .peoplePage .basicPage .tabBtn li{font-weight: 700; padding-bottom: 12px; position: relative; cursor: pointer;}
-.peoplePage .basicPage .tabBtn li:nth-child(1){font-size: 32px; line-height: 40px;}
-.peoplePage .basicPage .tabBtn li:nth-child(2){font-size: 26px; line-height: 37px;}
+.peoplePage .basicPage .tabBtn li{font-size: 32px; line-height: 40px;}
+/* .peoplePage .basicPage .tabBtn li:nth-child(2){font-size: 26px; line-height: 37px;} */
 .peoplePage .basicPage .tabBtn li:not(:last-child){margin-right: 80px;}
 .peoplePage .basicPage .tabBtn li.active{color: #B40A50;}
 .peoplePage .basicPage .tabBtn li.active::after{content: ''; position: absolute; left: 0; bottom: -1px; width: 100%; height: 2px; background-color: #B40A50;}

@@ -8,7 +8,7 @@ header,
 .mainPage :is(.newsArea , .recruitArea) h2,
 [class|="titleBox"],
 .CEOPage section figure figcaption h3,
-.peoplePage .basicPage .tabBtn li:first-child,
+.peoplePage .basicPage .tabBtn li,
 .CIPage section ul li.colorArea,
 .worksPage .archiPage .topArea > div div a,
 .worksPage section .titleArea h2,
@@ -22,9 +22,10 @@ header,
 .CIPage section > div .colorArea ul
 {font-family: 'allumi-std', sans-serif;}
 /* Noto Sans KR */
-[class|="GNB"] > ul > li > ul li a:not(:first-child),
+/* [class|="GNB"] > ul > li > ul li a:not(:first-child),
 .GNB-recruit > ul > li a
-{font-family: 'Noto Sans KR', sans-serif;}
+{font-family: 'Noto Sans KR', sans-serif;} */
+
 
 /* 접근성 */
 .textHidden{height: 0.01px; overflow: hidden;}
