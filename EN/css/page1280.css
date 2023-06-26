@@ -114,8 +114,8 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .CEOPage section figure{display: flex; justify-content: space-between; }
 .CEOPage section figure .imgBox{width: 508px; height: 669px; background: url('../images/CEO-img.png') no-repeat center / cover;}
 .CEOPage section figure figcaption{width: 510px; display: flex; flex-direction: column; padding-right: 102px;}
-.CEOPage section figure figcaption h3{font-size: 32px; font-weight: 700; line-height: 44px; padding-top: 30px; margin-bottom: 46px;}
-.CEOPage section figure figcaption > b{display: block; font-size: 18px; font-weight: 500; line-height: 26.6667px; margin-bottom: 28px;}
+.CEOPage section figure figcaption h3{font-size: 32px; font-weight: 700; line-height: 44px; padding-top: 5px; margin-bottom: 20px;}
+.CEOPage section figure figcaption > b{display: block; font-size: 18px; font-weight: 500; line-height: 26.6667px; margin-bottom: 15px;}
 .CEOPage section figure figcaption p{font-size: 12px; font-weight: 400; color: #5D5D5D; line-height: 17.94px;}
 .CEOPage section figure figcaption p:not(:last-child){margin-bottom: 17.94px;}
 .CEOPage section figure figcaption strong{margin-top: auto; margin-left: auto; font-size: 22px; font-weight: 500; line-height: 32px;  display: flex; align-items: flex-end;}
@@ -196,7 +196,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .CIPage section > div .corporateArea .imgBox{padding-bottom: 24.094%; background-image: url('../images/CI-corporate.png');  margin-bottom: 24px;}
 .CIPage section > div .corporateArea mark{display: block; font-size: 24px; font-weight: 500; line-height: 35px; margin-bottom: 28px;}
 .CIPage section > div .corporateArea b{font-size: 16px; font-weight: 400; line-height: 24px;}
-.CIPage section > div .corporateArea .textArea{position: absolute; right: 0; bottom: 2px; max-width: 508px; box-sizing: border-box;}
+.CIPage section > div .corporateArea .textArea{position: absolute; right: 0; bottom: 2px; max-width: 600px; box-sizing: border-box;}
 .CIPage section > div .corporateArea .textArea p{font-size: 12px; font-weight: 300; line-height: 17.8333px;}
 .CIPage section > div .corporateArea .textArea p:not(:last-child){margin-bottom: 17.8333px;}
 .CIPage section > div .designArea{margin-bottom: 131px;}
@@ -393,8 +393,8 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .awardPage .basicPage > div ol li:first-child:before{top: 0px; width: 10px; height: 10px; background-color: white; border: 2px solid #B4094D;}
 .awardPage .basicPage > div ol li::after{content: ''; position: absolute; left: 0; top: 6px; width: 62px; border-top: 2px dotted #CE7297;}
 .awardPage .basicPage > div ol li time{display: block; font-size: 10px; font-weight: 400; color: #A0A0A0; line-height: 15px; margin-bottom: 2px;}
-.awardPage .basicPage > div ol li p{font-size: 14px; font-weight: 500; line-height: 20px; display: flex; align-items: flex-end;}
-.awardPage .basicPage > div ol li p small{font-size: 10px; font-weight: 400; line-height: 15px; margin-left: 8px;}
+.awardPage .basicPage > div ol li p{font-size: 14px; font-weight: 500; line-height: 20px; /* display: flex; align-items: flex-end; */}
+.awardPage .basicPage > div ol li p small{font-size: 10px; font-weight: 400; line-height: 15px; /* margin-left: 8px; */ display: block;}
 
 
 /* 서치 페이지 */

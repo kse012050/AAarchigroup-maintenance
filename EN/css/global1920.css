@@ -135,7 +135,8 @@ header.active::after{content: ''; display: none;}
 .GNB-news > ul > li:not(:last-child){margin-bottom: 80px;}
 .GNB-recruit{background-image: url('../images/GNB-recruit-BG.png'); padding: 173px 0 0;}
 .GNB-recruit > ul > li:not(:last-child){margin-bottom: 80px;}
-.GNB-recruit > ul > li > a:first-child{line-height: 46px; text-underline-offset: 9px;}
+.GNB-recruit > ul > li > a:first-child{/* line-height: 46px; */ text-underline-offset: 9px;}
+.GNB-recruit > ul > li:nth-child(1) > a{font-size: 28px; line-height: 36px;}
 .GNB-recruit ul li:last-child a{display: flex; align-items: center;}
 .GNB-recruit ul li:last-child a::after{content: ''; width: 42px; height: 42px; background: url('../images/icon-announ.png') no-repeat center / cover;}
 
