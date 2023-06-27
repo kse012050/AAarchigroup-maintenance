@@ -197,7 +197,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .CIPage section > div .corporateArea .imgBox{padding-bottom: 24.094%; background-image: url('../images/CI-corporate.png');  margin-bottom: 40px;}
 .CIPage section > div .corporateArea mark{display: block; font-size: 32px; font-weight: 500; line-height: 46px; margin-bottom: 48px;}
 .CIPage section > div .corporateArea b{font-size: 24px; font-weight: 400; line-height: 33.5px;}
-.CIPage section > div .corporateArea .textArea{position: absolute; right: 0; bottom: 0; max-width: 900px; padding-right: 20px; box-sizing: border-box;}
+.CIPage section > div .corporateArea .textArea{position: absolute; right: 0; bottom: 0; max-width: 1041px; padding-right: 20px; box-sizing: border-box;}
 .CIPage section > div .corporateArea .textArea p{font-size: 18px; font-weight: 300; line-height: 26.8333px;}
 .CIPage section > div .corporateArea .textArea p:not(:last-child){margin-bottom: 26.8333px;}
 .CIPage section > div :is(.designArea , .CIArea){margin-bottom: 200px;}
