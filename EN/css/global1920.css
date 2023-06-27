@@ -48,6 +48,7 @@
 .pagerBox{display: flex; justify-content: center; align-items: center; margin-top: 100px;}
 .pagerBox > a{width: 36px; height: 36px; cursor: default;}
 .pagerBox > a.active{cursor: pointer;}
+.pagerBox > a:not(.active){pointer-events: none;}
 .pagerBox > a:first-child{background-image: url('../images/icon-prev.png');}
 .pagerBox > a:first-child.active{background-image: url('../images/icon-prev-active.png');}
 .pagerBox > a:last-child{background-image: url('../images/icon-next.png');}
