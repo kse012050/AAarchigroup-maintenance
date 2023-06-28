@@ -57,6 +57,12 @@ function GNBEvent(){
         !isMobile && $(this).find('ul').stop().slideUp();
     })
 
+    $('.searchValue').on('keypress',function(e){
+        if (e.key === 'Enter') {
+            $('.searchBtn').click();
+        }
+    })
+
     // 검색 버튼 - PC
     $('.searchBtn').click(function(){
         if(isMobile)return;
@@ -67,7 +73,7 @@ function GNBEvent(){
                 $('.searchValue').focus();
             }else{
                 alert(searchValue)
-                location.href = 'search-All.html'
+                location.href = `search-All.html?word=${searchValue}`
             }
         }else{
             $(this).next().addClass('active');
