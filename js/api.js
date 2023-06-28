@@ -87,7 +87,7 @@ export function works(pageInfo , locationData){
 }
 
 
-export function worksDetail(id){
+export function detail(id){
   return new Promise(function(resolve, reject) {
     $.ajax({
       url: `${apiUrl}/board/${id}`,

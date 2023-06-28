@@ -15,7 +15,9 @@ $(document).ready(function(){
     ($('.worksPage').length && !$('.worksPage .detailPage').length) && worksPage();
     $('.worksPage .detailPage').length && worksDetailPage();
     $('.newsPage .basicPage').length && newsPage();
+    $('.newsPage .detailPage').length && newsAnnouncementDetailPage();
     $('.announcementPage .basicPage').length && announcementPage();
+    $('.announcementPage .detailPage').length && newsAnnouncementDetailPage();
     $('.CIPage').length && ciPage();
     $('.searchPage').length && searchPage();
 });
@@ -170,7 +172,7 @@ function worksPage(){
 
 function worksDetailPage(){
     const locationData = locationFunc();
-    api.worksDetail(locationData.id)
+    api.detail(locationData.id)
         .then(function(data) {
             let htmlContent = '';
             // 슬라이더 이미지
@@ -242,6 +244,21 @@ function newsPage(){
         .catch(function(error){
             console.error(error)
         })   
+}
+
+function newsAnnouncementDetailPage(){
+    const locationData = locationFunc();
+    api.detail(locationData.id)
+        .then(function(data) {
+            console.log(data);
+            $(':is(.newsPage , .announcementPage) .detailPage .titleArea h3').html(data.data.subject)
+            $(':is(.newsPage , .announcementPage) .detailPage .titleArea time').html(data.data.reg_date)
+            $(':is(.newsPage , .announcementPage) .detailPage .editor').html(data.data.content)
+            
+        })
+        .catch(function(error){
+            console.error(error)
+        })
 }
 
 function announcementPage(){
