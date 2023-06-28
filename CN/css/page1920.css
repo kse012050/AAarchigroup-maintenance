@@ -129,7 +129,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .philosophyPage section{background: url('../images/philosophyBG.png') no-repeat center / cover; padding-bottom: 69px;}
 .philosophyPage section div .textArea{margin-bottom: 31px;}
 .philosophyPage section div .textArea h2{line-height: 47.5px; margin-bottom: 60px;}
-.philosophyPage section div .textArea p{font-size: 16px; line-height: 24px; font-weight: 300; color: white; max-width: 465px;}
+.philosophyPage section div .textArea p{font-size: 16px; line-height: 24px; font-weight: 300; color: white; max-width: 475px;}
 .philosophyPage section div svg{width: 805px;}
 .visionPage section{background-color: black; padding-bottom: 58px;}
 .visionPage section div h2{margin-bottom: 67px;}

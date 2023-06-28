@@ -130,7 +130,7 @@ function peopleDetailPage(){
 }
 
 function worksPage(){
-    const pageInfo = window.location.pathname;
+    const pageInfo = window.location.pathname.replace('/EN','');
     const pageInfoArray = pageInfo.replace('/','').replace('.html','').split('-')
     let locationData = locationFunc();
     if(!locationData.page){
@@ -262,7 +262,7 @@ function newsAnnouncementDetailPage(){
 }
 
 function announcementPage(){
-    const pageInfo = window.location.pathname;
+    const pageInfo = window.location.pathname.replace('/EN','');
     let locationData = locationFunc();
     if(!locationData.page){
         locationData.page = 1;
@@ -309,7 +309,7 @@ function ciPage(){
 }
 
 function searchPage(){
-    const pageInfo = window.location.pathname;
+    const pageInfo = window.location.pathname.replace('/EN','');
     const pageInfoArray = pageInfo.replace('/','').replace('.html','').split('-')
     let locationData = locationFunc();
     if(!locationData.page){

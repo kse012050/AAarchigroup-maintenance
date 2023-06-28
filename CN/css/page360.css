@@ -113,7 +113,7 @@
 .philosophyPage section{background-color: black;}
 .philosophyPage section > div .textArea{background: url('../images/m-philosophyBG.png') no-repeat center / cover; padding-top: 90px; padding-bottom: 100px; margin-bottom: 60px;}
 .philosophyPage section > div .textArea h2{margin-bottom: 80px;}
-.philosophyPage section > div .textArea p{font-size: 14px; line-height: 21.7142px; font-weight: 300; color: white; max-width: 350px; margin-bottom: 12px;}
+.philosophyPage section > div .textArea p{font-size: 14px; line-height: 21.7142px; font-weight: 300; color: white; max-width: 405px; margin-bottom: 12px;}
 .philosophyPage section > div svg{width: 100%;}
 .visionPage section{background-color: black;}
 .visionPage section div{padding-top: 90px;}
