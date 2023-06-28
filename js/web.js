@@ -72,8 +72,8 @@ function peoplePage(){
                 htmlContent +=
                 `<li>
                     <a href="people-detail.html?id=${people.people_id}">
-                        <div class="imgBox PCTablet" style="background-image: url(${people.profile_url});">${people.responsibilities}${people.name} 이미지</div>
-                        <div class="imgBox mobile" style="background-image: url(${people.m_profile_url});">${people.responsibilities}${people.name} 이미지</div>
+                        <div class="imgBox PCTablet" ${people.profile_url ? `style="background-image: url(${people.profile_url});` : ''}">${people.responsibilities}${people.name} 이미지</div>
+                        <div class="imgBox mobile" ${people.m_profile_url ? `style="background-image: url(${people.m_profile_url});` : ''}">${people.responsibilities}${people.name} 이미지</div>
                         <small>${people.responsibilities}</small>
                         <strong>${people.name}</strong>
                     </a>
@@ -95,8 +95,8 @@ function peopleDetailPage(){
         let htmlContent = '';
         htmlContent += `
             <h2 class="titleBox-black">PEOPLE > ${data.data.department}</h2>
-            <div class="imgBox PCTablet" style="background-image: url('${data.data.m_profile_detail_url}">${data.data.responsibilities} ${data.data.name} 이미지</div>
-            <div class="imgBox mobile" style="background-image: url('${data.data.profile_detail_url}')">${data.data.responsibilities} ${data.data.name} 이미지</div>
+            <div class="imgBox PCTablet" ${data.data.profile_detail_url ? `style="background-image: url(${data.data.profile_detail_url});` : ''}">${data.data.responsibilities} ${data.data.name} 이미지</div>
+            <div class="imgBox mobile" ${data.data.m_profile_detail_url ? `style="background-image: url(${data.data.m_profile_detail_url});` : ''}">${data.data.responsibilities} ${data.data.name} 이미지</div>
             <h3>${data.data.name} <small>${data.data.department}${data.data.department !== data.data.responsibilities ? ' / ' + data.data.responsibilities : ''}</small></h3>
             <div class="infoArea">
                 <div>
