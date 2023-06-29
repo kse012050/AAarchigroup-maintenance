@@ -2,11 +2,6 @@ let mobileResponsive = 1200;
 let isMobile;
 
 $(document).ready(function(){
-    // announcementPage 클릭 막기 나중에 삭제
-    // $('.announcementPage .boardArea a').click(function(e){
-    //     e.preventDefault();
-    // })
-
     // 모바일 판별
     responsiveEvent();
     // 모바일 - 풀 사이즈
@@ -15,7 +10,6 @@ $(document).ready(function(){
         responsiveEvent();
         mobileFull();
     })
-
 
     // 메뉴
     GNBEvent();
@@ -35,14 +29,11 @@ $(document).ready(function(){
     // history 페이지
     $('.historyPage').length && historyPage();
     
-    
     // people 페이지
     $('.peoplePage').length && peoplePage();
     
-    
     // 페이저네이션 클릭 막기
     pagerBox();
-
 
     // 에디터 이미지 크기 조정
     $(':is(.newsPage , .announcementPage) .detailPage').length > 0 && editor();
@@ -72,7 +63,6 @@ function GNBEvent(){
                 alert('검색어를 입력해주세요.');
                 $('.searchValue').focus();
             }else{
-                // alert(searchValue)
                 location.href = `search-All.html?word=${searchValue}`
             }
         }else{
@@ -219,7 +209,6 @@ function peoplePage(){
     })
 }
 
-
 // 모바일 판별
 function responsiveEvent(){
     $(document).width() <= mobileResponsive ? ( isMobile = true ) : ( isMobile = false);
@@ -235,7 +224,6 @@ function mobileFull(){
     $('.mobileFullSize').css('padding-left' , gap)
     $('.mobileFullSize').css('padding-right' , gap)
 }
-
 
 // 에디터 이미지 크기 조정
 function editor(){

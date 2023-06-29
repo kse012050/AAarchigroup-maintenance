@@ -4,7 +4,7 @@ br:not(.all , .mobileBr){display: none;}
 /* 컨텐츠 크기 */
 .contentSize{max-width: 720px; margin: 0 auto; width: calc(100% - 28px);}
 .contentSize01 , .mobileContentSize{max-width: 694px; margin: 0 auto; width: calc(100% - 54px);}
-.mobileFullSize{box-sizing: border-box;}    /* jQuery 로 구현 */
+.mobileFullSize{box-sizing: border-box;} 
 
 /* 라인 */
 :where([class *= 'lineBox']){position: relative;}
@@ -44,7 +44,6 @@ br:not(.all , .mobileBr){display: none;}
 .postText:not(:has(:nth-child(1)))::before{content: '등록된 게시글이 없습니다.'; display: block; width: 100%; font-size: 12px; font-weight: 400; line-height: 17px; color: #888888; text-align: center;}
 .postText:not(:has(:nth-child(1))) + .pagerBox{display: none;}
 
-
 /* 페이저 */
 .pagerBox{display: flex; justify-content: center; align-items: center;}
 .pagerBox > a{width: 22px; height: 22px; cursor: default;}
@@ -57,7 +56,6 @@ br:not(.all , .mobileBr){display: none;}
 .pagerBox ol{display: flex; align-items: center; margin: 0 12px;}
 .pagerBox ol li a{display: flex; justify-content: center; align-items: center; font-size: 13px; font-weight: 300; color: #C7C7C7; width: 32px;}
 .pagerBox ol li:is(.active , :hover) a{font-weight: 600; color: #1A1A1A;}
-
 
 
 /* 해더 */

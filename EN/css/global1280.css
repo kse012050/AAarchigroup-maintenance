@@ -43,7 +43,6 @@
 .postText:not(:has(:nth-child(1)))::before{content: '등록된 게시글이 없습니다.'; display: block; width: 100%; padding: 320px 0 200px; font-size: 12px; font-weight: 400; color: #888888; text-align: center;}
 .postText:not(:has(:nth-child(1))) + .pagerBox{display: none;}
 
-
 /* 페이저 */
 .pagerBox{display: flex; justify-content: center; align-items: center;}
 .pagerBox > a{width: 28px; height: 28px; cursor: default;}
@@ -56,7 +55,6 @@
 .pagerBox ol{display: flex; align-items: center; margin: 0 20px;}
 .pagerBox ol li a{display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: 300; color: #C7C7C7; width: 28px;}
 .pagerBox ol li:is(.active , :hover) a{font-weight: 600; color: #1A1A1A;}
-
 
 
 /* 해더 */
@@ -109,7 +107,6 @@ header:is(.active , :hover):not(:has([class|="GNB"]:hover)) > div > div .languag
 
 header.active::after{content: ''; display: none;}
 
-
 [class|="GNB"]{display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: -10; box-sizing: border-box; background-repeat: no-repeat; background-position: center; background-size: cover; padding-top: 130px;}
 [class|="GNB"].active{z-index: -1;}
 [class|="GNB"] > ul{display: flex; flex-wrap: wrap;}
@@ -131,14 +128,12 @@ header.active::after{content: ''; display: none;}
 [class|="GNB"]:not(.GNB-about) > ul > li:not(:last-child){margin-bottom: 60px;}
 .GNB-works{background-image: url('../images/GNB-works-BG.png');}
 .GNB-works > ul > li > a{font-size: 26px; line-height: 35px;}
-/* .GNB-works > ul > li:not(:last-child){margin-bottom: 60px;} */
 .GNB-news{background-image: url('../images/GNB-news-BG.png');}
-/* .GNB-news > ul > li:not(:last-child){margin-bottom: 60px;} */
 .GNB-recruit{background-image: url('../images/GNB-recruit-BG.png');}
-/* .GNB-recruit > ul > li:not(:last-child){margin-bottom: 60px;} */
 .GNB-recruit > ul > li > a:first-child{line-height: 34px; text-underline-offset: 6px;}
 .GNB-recruit ul li:last-child a{display: flex; align-items: center;}
 .GNB-recruit ul li:last-child a::after{content: ''; width: 24px; height: 24px; background: url('../images/icon-announ.png') no-repeat center / cover;}
+
 
 /* 푸터 */
 footer{background-color: black;}

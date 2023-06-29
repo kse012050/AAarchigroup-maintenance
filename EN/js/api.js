@@ -73,7 +73,6 @@ export function works(pageInfo , locationData){
   pageParams += `&page=${locationData.page}`
   return new Promise(function(resolve, reject) {
       $.ajax({
-        // url: apiUrl + `/board?type=300&category1=1&page=1&category2=active&category3=hotel`,
         url: apiUrl + `/board?type=300${pageParams}`,
         ...apiSetting,
         success: function(data) {

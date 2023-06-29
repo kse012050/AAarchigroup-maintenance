@@ -21,10 +21,6 @@ header,
 .CIPage section > div .colorArea strong,
 .CIPage section > div .colorArea ul
 {font-family: 'allumi-std', sans-serif;}
-/* Noto Sans KR */
-/* [class|="GNB"] > ul > li > ul li a:not(:first-child),
-.GNB-recruit > ul > li a
-{font-family: 'Noto Sans KR', sans-serif;} */
 
 
 /* 접근성 */
