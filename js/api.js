@@ -73,7 +73,6 @@ export function works(pageInfo , locationData){
   pageParams += `&page=${locationData.page}`
   return new Promise(function(resolve, reject) {
       $.ajax({
-        // url: apiUrl + `/board?type=300&category1=1&page=1&category2=active&category3=hotel`,
         url: apiUrl + `/board?type=300${pageParams}`,
         ...apiSetting,
         success: function(data) {
@@ -85,7 +84,6 @@ export function works(pageInfo , locationData){
       });
   });
 }
-
 
 export function detail(id){
   return new Promise(function(resolve, reject) {
@@ -102,7 +100,6 @@ export function detail(id){
   });
 }
 
-
 export function news(){
   return new Promise(function(resolve, reject) {
     $.ajax({
@@ -118,7 +115,6 @@ export function news(){
   });
 }
 
-
 export function announcement(){
   return new Promise(function(resolve, reject) {
     $.ajax({
@@ -133,7 +129,6 @@ export function announcement(){
     });
   });
 }
-
 
 export function ci(){
   return new Promise(function(resolve, reject) {
