@@ -35,7 +35,6 @@
 .mainPage .mainSwiper .titleArea div h3{font-size: 56px; font-weight: 700;}
 .mainPage .mainSwiper .titleArea div h3 small{display: block; max-width: 470px; font-size: 30px; font-weight: 600; margin-top: 5px;}
 
-
 /* 메인페이지 - 소개 */
 .mainPage .infoArea{color: white; position: relative; z-index: 1;}
 .mainPage .infoArea::before{content: ''; position: absolute; left: 50%; top: 0; width: 100%; height: calc(100% + 40px); transform: translate(-50% , 0); background: url('../images/main-inforBG.png') no-repeat center / 100% 100%; z-index: -1;}
@@ -80,11 +79,9 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .mainPage .worksArea .test::after{content: ''; position: absolute; left: 0; top: 0; transform: translateX(calc(-100% + 1px)); width: 31px; height: calc(100% + 1px); clip-path: polygon(100% 0, 100% 100%, 0 100%); background-color: white;}
 
 
-/* 메인페이지 - 워크 */
-
-
-
+/* 메인페이지 공통 */
 .mainPage :is(.newsArea , .recruitArea) h2{font-size: 32px; font-weight: 700; line-height: 40px;}
+
 /* 메인페이지 - 뉴스 */
 .mainPage .newsArea{padding: 100px 0 108px;}
 .mainPage .newsArea h2{margin-bottom: 32px;}
@@ -140,6 +137,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 
 /* 히스토리 */
 .historyPage header::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: rgba(255, 255, 255, 0.3);}
+
 /* 히스토리 2010 페이지*/
 .historyPage .basicPage{transition: 0.5s;}
 .historyPage .basicPage:has(aside a:nth-child(1).active){background-image: url('../images/history-2010BG.png');}
@@ -173,11 +171,11 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 
 /* 컨텍트 , CI 페이지 공통*/
 :is(.contactPage , .CIPage) section{display: flex; justify-content: space-between;}
+
 /* 컨텍트 페이지 */
 .contactPage section{padding: 110px 0 140px;}
 .contactPage section ul{width: 924px; display: flex; flex-wrap: wrap; gap: 72px 12px; }
 .contactPage section ul li{width: calc((100% - 12px) / 2); }
-/* .contactPage section ul li:nth-child(n + 3){margin-top: 120px;} */
 .contactPage section ul li iframe{width: 100%; height: 262px; margin-bottom: 20px;}
 .contactPage section ul li strong{display: block; font-size: 24px; font-weight: 500; line-height: 35px; padding: 0 8px 6px; margin-bottom: 20px; border-bottom: 1px solid #C7C7C7;}
 .contactPage section ul li address{padding: 0 8px;}
@@ -349,6 +347,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 /* 뉴스 페이지 */
 /* 뉴스 페이지 공통 */
 .newsPage section{padding: 110px 0 160px;}
+
 /* 뉴스 페이지 - 뉴스 */
 .newsPage section h2{margin-bottom: 32px;}
 .newsPage section .list-news li a .imgBox{height: 269px;}
@@ -357,6 +356,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .newsPage section .list-news li a time{line-height: 17px; margin-bottom: 2px; color: #888888;}
 .newsPage section .list-news.postText:not(:has(:nth-child(1)))::before{padding: 299px 0 138px;}
 .newsPage section .list-news.postText:not(:has(:nth-child(1))) + a{display: none;}
+
 /* 뉴스 페이지 - 메인 페이지 */
 .newsPage .basicPage > button{display: none;}
 
@@ -423,6 +423,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .peoplePage section{padding-top: 110px;}
 .peoplePage section:has(.tabBtn li:nth-child(1).active){padding-bottom: 140px;}
 .peoplePage section:has(.tabBtn li:nth-child(2).active){padding-bottom: 93px;}
+
 /* 인물 페이지 - 메인 */
 .peoplePage .basicPage .tabBtn{display: flex; border-bottom: 1px solid #C7C7C7; margin-bottom: 48px;}
 .peoplePage .basicPage .tabBtn li{font-weight: 700; padding-bottom: 12px; position: relative; cursor: pointer;}
@@ -456,7 +457,8 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .peoplePage .basicPage .tabContent .groupArea div{position: absolute; left: 0; top: 0;}
 .peoplePage .basicPage .tabContent .groupArea div strong{display: block; font-size: 24px; line-height: 37.5px; font-weight: 500; letter-spacing: -1.81px; max-width: 605px; margin-bottom: 36px;}
 .peoplePage .basicPage .tabContent .groupArea div p{font-size: 12px; font-weight: 400; line-height: 17.8px;}
-.peoplePage .basicPage .tabContent .groupArea svg{width: 1202px;}
+.peoplePage .basicPage .tabContent .groupArea svg{max-width: 1202px; width: 100%;}
+
 /* 인물 페이지 - 상세 */
 .peoplePage .detailPage{padding-bottom: 120px;}
 .peoplePage .detailPage h2{line-height: 43px; margin-bottom: 46px;}
@@ -487,6 +489,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .recruitPage section .topArea > div h2 small{display: block; font-size: 16px; font-weight: 400; line-height: 20px; margin-bottom: 8px;}
 .recruitPage section .contentArea > div{display: flex; justify-content: space-between;}
 .recruitPage section .contentArea > div strong{font-size: 28px; font-weight: 500; line-height: 40px;}
+
 /* 모집 페이지 - 인사제도 */
 .recruitPage .personnelPage{padding-bottom: 160px;}
 .recruitPage .personnelPage .contentArea > div > *:last-child{width: 821px; margin-right: 82px;}
@@ -525,6 +528,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li div b::after{content: ''; width: 32px; height: 32px; background: url('../images/recruit-compensationSystemImg.png') no-repeat center / cover; margin-left: 18px;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li div p{font-size: 14px; font-weight: 300; line-height: 20.5px; color: #666666;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li:nth-child(2)::after{content: ''; position: absolute; top: 35px; left: 0; width: 100%; height: 68px; border-width: 0 1px; border-style: solid; border-color: #E2E2E2; pointer-events: none;}
+
 /* 모집 페이지 - 복리후생 */
 .recruitPage .welfarePage{padding-bottom: 144px;}
 .recruitPage .welfarePage .topArea{background-image: url('../images/recruit-welfareBG.png');}
@@ -540,7 +544,6 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .recruitPage .welfarePage .contentArea .supportArea ul li:not(:nth-child(-n + 3)){padding-top: 46px; margin-top: 86px;}
 .recruitPage .welfarePage .contentArea .supportArea ul li b{display: block; font-size: 18px; font-weight: 500; line-height: 26px; padding-bottom: 24px; border-bottom: 1px solid #E2E2E2; margin-bottom: 10px;}
 .recruitPage .welfarePage .contentArea .supportArea ul li p{max-width: 260px; font-size: 12px; font-weight: 300; color: #666666; line-height: 17px;}
-
 
 
 /* 서버 연결 후 삭제 */

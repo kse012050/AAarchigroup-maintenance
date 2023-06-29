@@ -35,7 +35,6 @@
 .mainPage .mainSwiper .titleArea div h3{font-size: 68px; font-weight: 700;}
 .mainPage .mainSwiper .titleArea div h3 small{display: block; max-width: 470px; font-size: 36px; font-weight: 600; line-height: 48px; margin-top: 15px;}
 
-
 /* 메인페이지 - 소개 */
 .mainPage .infoArea{color: white; position: relative; z-index: 1;}
 .mainPage .infoArea::before{content: ''; position: absolute; left: 50%; top: 0; width: 100%; height: calc(100% + 57px); transform: translate(-50% , 0); background: url('../images/main-inforBG.png') no-repeat center / 100% 100%; z-index: -1;}
@@ -79,11 +78,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .mainPage .worksArea .test{position: absolute; right: 0; bottom: 0; width: 40.72%; height: 55px; background-color: white;}
 .mainPage .worksArea .test::after{content: ''; position: absolute; left: 0; top: 0; transform: translateX(calc(-100% + 1px)); width: 43px; height: calc(100% + 1px); clip-path: polygon(100% 0, 100% 100%, 0 100%); background-color: white;}
 
-
-/* 메인페이지 - 워크 */
-
-
-
+/* 메인페이지 공통 */
 .mainPage :is(.newsArea , .recruitArea) h2{font-size: 48px; font-weight: 700; line-height: 61px;}
 /* 메인페이지 - 뉴스 */
 .mainPage .newsArea{padding: 180px 0 211px;}
@@ -96,7 +91,6 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .mainPage .newsArea ul li a p{font-size: 24px; font-weight: 500; line-height: 35px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;} 
 .mainPage .newsArea ul.postText:not(:has(:nth-child(1)))::before{padding: 289px 0 225px;}
 .mainPage .newsArea ul.postText:not(:has(:nth-child(1))) + .link-basic{display: none;}
-
 
 /* 메인페이지 - 커리어 */
 .mainPage .recruitArea{background: black url('../images/main-recruitBG.png') no-repeat center top/ cover; position: relative;}
@@ -134,7 +128,6 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .visionPage section{background-color: black; padding-bottom: 58px;}
 .visionPage section div h2{margin-bottom: 67px;}
 .visionPage section div svg{width: 1574px;}
-
 
 
 /* 히스토리 */
@@ -329,7 +322,6 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .worksPage .detailPage .portfolioArea .list-detail li{width: calc((100% - 16px) / 4);}
 .worksPage .detailPage .portfolioArea .list-detail li .imgBox{height: 265px;}
 
-
 /* 뉴스 페이지 , 발표 페이지 - 상세 페이지 */
 :is(.newsPage , .announcementPage) .detailPage .titleArea > div , 
 :is(.newsPage , .announcementPage) .detailPage .contentArea{max-width: 1230px; margin: 0 auto;}
@@ -413,6 +405,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .peoplePage section{padding-top: 154px;}
 .peoplePage section:has(.tabBtn li:nth-child(1).active){padding-bottom: 428px;}
 .peoplePage section:has(.tabBtn li:nth-child(2).active){padding-bottom: 141px;}
+
 /* 인물 페이지 - 메인 */
 .peoplePage .basicPage .tabBtn{display: flex; border-bottom: 2px solid #C7C7C7; margin-bottom: 58px;}
 .peoplePage .basicPage .tabBtn li{line-height: 62px; font-weight: 700; padding-bottom: 20px; position: relative; cursor: pointer;}
@@ -447,6 +440,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .peoplePage .basicPage .tabContent .groupArea div strong{display: block; font-size: 36px; line-height: 56px; font-weight: 500; letter-spacing: -1.81px; max-width: 605px; margin-bottom: 56px;}
 .peoplePage .basicPage .tabContent .groupArea div p{font-size: 16px; font-weight: 400; line-height: 24px;}
 .peoplePage .basicPage .tabContent .groupArea svg{max-width: 1813px; width: 100%;}
+
 /* 인물 페이지 - 상세 */
 .peoplePage .detailPage{padding-bottom: 200px;}
 .peoplePage .detailPage h2{margin-bottom: 56px;}
@@ -476,6 +470,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .recruitPage section .topArea > div h2 small{display: block; font-size: 22px; font-weight: 400; line-height: 28px; margin-bottom: 24px;}
 .recruitPage section .contentArea > div{display: flex; justify-content: space-between;}
 .recruitPage section .contentArea > div strong{font-size: 40px; font-weight: 500; line-height: 58px;}
+
 /* 모집 페이지 - 인사제도 */
 .recruitPage .personnelPage .contentArea > div > *:last-child{width: 1232px; margin-right: 124px; box-sizing: border-box;}
 .recruitPage .personnelPage .topArea{background-image: url('../images/recruit-personnelBG.png');}
@@ -517,6 +512,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li div b::after{content: ''; width: 46px; height: 46px; background: url('../images/recruit-compensationSystemImg.png') no-repeat center / cover; margin-left: 32px;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li div p{font-size: 20px; font-weight: 300; line-height: 30.5px; color: #666666;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li:nth-child(2)::after{content: ''; position: absolute; top: 45px; left: 0; width: 100%; height: 100px; border-width: 0 1px; border-style: solid; border-color: #E2E2E2; pointer-events: none;}
+
 /* 모집 페이지 - 복리후생 */
 .recruitPage .welfarePage .topArea{background-image: url('../images/recruit-welfareBG.png');}
 .recruitPage .welfarePage .contentArea .supportArea ul{width: 1368px; display: flex; flex-wrap: wrap; justify-content: space-between;}
@@ -545,7 +541,6 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .editor div.personArea{width: 277px; margin: 44px auto 36px;}
 .editor div.patentArea{width: 366px; margin: 44px auto 36px;}
 .editor .leftImg{float: left; max-width: 196px; margin-right: 27px;}
-
 
 
 /* 서버 연결 후 삭제 */

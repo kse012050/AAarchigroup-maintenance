@@ -456,7 +456,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .peoplePage .basicPage .tabContent .groupArea div{position: absolute; left: 0; top: 0;}
 .peoplePage .basicPage .tabContent .groupArea div strong{display: block; font-size: 24px; line-height: 37.5px; font-weight: 500; letter-spacing: -1.81px; max-width: 605px; margin-bottom: 36px;}
 .peoplePage .basicPage .tabContent .groupArea div p{font-size: 12px; font-weight: 400; line-height: 17.8px;}
-.peoplePage .basicPage .tabContent .groupArea svg{width: 1202px;}
+.peoplePage .basicPage .tabContent .groupArea svg{max-width: 1202px; width: 100%;}
 /* 인물 페이지 - 상세 */
 .peoplePage .detailPage{padding-bottom: 120px;}
 .peoplePage .detailPage h2{line-height: 43px; margin-bottom: 46px;}

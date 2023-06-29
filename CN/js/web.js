@@ -1,13 +1,5 @@
 import * as api from './api.js'
 
-// 기본
-// api.people()
-//     .then(function(data) {
-//     })
-//     .catch(function(error){
-//     console.error(error)
-//     })
-
 $(document).ready(function(){
     $('.mainPage').length && mainPage();
     $('.peoplePage .basicPage').length && peoplePage(); 
@@ -26,16 +18,13 @@ function locationFunc(){
     const queryString = window.location.search;
     let data = {}
     if (queryString) {
-        // '?' 문자 제거 후 '&'로 분할하여 각 파라미터를 배열로 얻음
         const params = queryString.substring(1).split('&');
       
-        // 각 파라미터에 대해 반복하여 값 가져오기
         for (let i = 0; i < params.length; i++) {
           const param = params[i].split('=');
-          const paramName = decodeURIComponent(param[0]); // 파라미터 이름
-          const paramValue = decodeURIComponent(param[1]); // 파라미터 값
-      
-          // 가져온 파라미터 값 사용
+          const paramName = decodeURIComponent(param[0]);
+          const paramValue = decodeURIComponent(param[1]);
+          
           data[paramName] = paramValue
         }
     } 
