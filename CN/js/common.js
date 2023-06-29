@@ -72,7 +72,7 @@ function GNBEvent(){
                 alert('검색어를 입력해주세요.');
                 $('.searchValue').focus();
             }else{
-                alert(searchValue)
+                // alert(searchValue)
                 location.href = `search-All.html?word=${searchValue}`
             }
         }else{

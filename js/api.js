@@ -151,6 +151,7 @@ export function ci(){
 }
 
 export function search(type, word, page){
+  console.log(`${apiUrl}/search/${type}/${word}?page=${page}`);
   return new Promise(function(resolve, reject) {
     $.ajax({
       url: `${apiUrl}/search/${type}/${word}?page=${page}`,
