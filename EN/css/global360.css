@@ -15,10 +15,10 @@ br:not(.all , .mobileBr){display: none;}
 [class|="link"]:not(.link-list){justify-content: space-between; margin-left: auto;}
 [class|="link"]:not(.link-list)::after{content: ''; width: 18px; height: 18px; background-repeat: no-repeat; background-position: center; background-size: cover;}
 [class|="link"]:not(.link-white){color: #1A1A1A; border: 1px solid #1A1A1A;}
-.link-basic::after{background-image: url('../images/icon-arrow-right-black.png');}
-.link-download::after{background-image: url('../images/icon-download.png');}
+.link-basic::after{background-image: url('../../images/icon-arrow-right-black.png');}
+.link-download::after{background-image: url('../../images/icon-download.png');}
 .link-white{color: white; border: 1px solid white;}
-.link-white::after{background-image: url('../images/icon-arrow-right-white.png');}
+.link-white::after{background-image: url('../../images/icon-arrow-right-white.png');}
 .link-list{justify-content: center;}
 
 /* 타이틀 케이스 */
@@ -49,10 +49,10 @@ br:not(.all , .mobileBr){display: none;}
 .pagerBox > a{width: 22px; height: 22px; cursor: default;}
 .pagerBox > a.active{cursor: pointer;}
 .pagerBox > a:not(.active){pointer-events: none;}
-.pagerBox > a:first-child{background-image: url('../images/icon-prev.png');}
-.pagerBox > a:first-child.active{background-image: url('../images/icon-prev-active.png');}
-.pagerBox > a:last-child{background-image: url('../images/icon-next.png');}
-.pagerBox > a:last-child.active{background-image: url('../images/icon-next-active.png');}
+.pagerBox > a:first-child{background-image: url('../../images/icon-prev.png');}
+.pagerBox > a:first-child.active{background-image: url('../../images/icon-prev-active.png');}
+.pagerBox > a:last-child{background-image: url('../../images/icon-next.png');}
+.pagerBox > a:last-child.active{background-image: url('../../images/icon-next-active.png');}
 .pagerBox ol{display: flex; align-items: center; margin: 0 12px;}
 .pagerBox ol li a{display: flex; justify-content: center; align-items: center; font-size: 13px; font-weight: 300; color: #C7C7C7; width: 32px;}
 .pagerBox ol li:is(.active , :hover) a{font-weight: 600; color: #1A1A1A;}
@@ -64,13 +64,13 @@ header::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; he
 header::after{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: rgba(255, 255, 255, 0.3);}
 header > div{display: flex; justify-content: center; align-items: center; position: relative; height: 46px;}
 header > div h1{position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 1;}
-header > div h1 a{width: 116.27px; height: 20.19px; background-image: url('../images/logo-color.png');}
-header > div nav{display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background-color: white; background-image: url('../images/m-GNB-BG.png'); background-position: center; background-size: cover; overflow: auto; transition: 0.5s background-image; z-index: 0; isolation: isolate;}
+header > div h1 a{width: 116.27px; height: 20.19px; background-image: url('../../images/logo-color.png');}
+header > div nav{display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background-color: white; background-image: url('../../images/m-GNB-BG.png'); background-position: center; background-size: cover; overflow: auto; transition: 0.5s background-image; z-index: 0; isolation: isolate;}
 header > div nav > ul > li::after{content: ''; position: fixed; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; opacity: 0; transition: 0.5s opacity;}
-header > div nav > ul > li:nth-child(1)::after{background-image: url('../images/m-GNB-about-BG.png');}
-header > div nav > ul > li:nth-child(2)::after{background-image: url('../images/m-GNB-works-BG.png');}
-header > div nav > ul > li:nth-child(3)::after{background-image: url('../images/m-GNB-news-BG.png');}
-header > div nav > ul > li:nth-child(4)::after{background-image: url('../images/m-GNB-recruit-BG.png');}
+header > div nav > ul > li:nth-child(1)::after{background-image: url('../../images/m-GNB-about-BG.png');}
+header > div nav > ul > li:nth-child(2)::after{background-image: url('../../images/m-GNB-works-BG.png');}
+header > div nav > ul > li:nth-child(3)::after{background-image: url('../../images/m-GNB-news-BG.png');}
+header > div nav > ul > li:nth-child(4)::after{background-image: url('../../images/m-GNB-recruit-BG.png');}
 header > div nav > ul > li:has(div[class |= "GNB"].active)::after{opacity: 1;}
 header > div nav.active{display: block;}
 header > div nav > ul{max-width: calc(100% - 56px); padding: 158px 0 60px; color: white; margin: 0 auto;}
@@ -95,7 +95,7 @@ header > div nav > ul > li > div[class |= "GNB"] > ul > li > ul > li:not(:last-c
 header > div nav > ul > li > div[class |= "GNB"] > ul > li > ul > li:last-child a{width: 100%;}
 header > div > div{position: absolute; right: 0; top: 0; height: 100%; display: flex; align-items: center; color: white;}
 header > div > div .searchArea{display: flex; align-items: center; margin-right: 8px;}
-header > div > div .searchArea .searchBtn{width: 26px; height: 26px; background-image: url('../images/icon-search-white.png'); background-repeat: no-repeat; background-position: center; background-size: cover; text-indent: -9999px; margin-right: 4px;}
+header > div > div .searchArea .searchBtn{width: 26px; height: 26px; background-image: url('../../images/icon-search-white.png'); background-repeat: no-repeat; background-position: center; background-size: cover; text-indent: -9999px; margin-right: 4px;}
 header > div > div .searchArea div{display: none;}
 header > div > div .languageArea{display: none; position: fixed; top: 58px; left: 0; width: 100%;}
 header > div nav.active + div .languageArea{display: block;}
@@ -105,13 +105,13 @@ header > div > div .languageArea ul li:not(:last-child){margin-right: 25px; posi
 header > div > div .languageArea ul li:not(:last-child)::after{content: ''; position: absolute; top: 50%; right: -12px; width: 1px; height: 14px; background-color: white; transform: translateY(-50%);}
 header > div > div .languageArea ul li a{display: block; font-size: 16px; line-height: 24px; opacity: 0.5;}
 header > div > div .languageArea ul li:is(:hover , .mobileActive) a{color: #B4094D; opacity: 1;}
-header > div > div > button{background-image: url('../images/icon-menu-white.png'); width: 32px; height: 32px;}
+header > div > div > button{background-image: url('../../images/icon-menu-white.png'); width: 32px; height: 32px;}
 .GNB-recruit ul li:last-child a{display: flex; align-items: center;}
-.GNB-recruit ul li:last-child a::after{content: ''; width: 30px; height: 30px; background: url('../images/icon-announ.png') no-repeat center / cover;}
+.GNB-recruit ul li:last-child a::after{content: ''; width: 30px; height: 30px; background: url('../../images/icon-announ.png') no-repeat center / cover;}
 
 header:not(:has(nav.active)).active{background-color: white;}
-header:not(:has(nav.active)).active > div > div .searchArea .searchBtn{background-image: url('../images/icon-search-black.png');}
-header:not(:has(nav.active)).active > div > div > button{background-image: url('../images/icon-menu-black.png');}
+header:not(:has(nav.active)).active > div > div .searchArea .searchBtn{background-image: url('../../images/icon-search-black.png');}
+header:not(:has(nav.active)).active > div > div > button{background-image: url('../../images/icon-menu-black.png');}
 
 
 /* 푸터 */

@@ -7,26 +7,26 @@
 .sliderArea .controlArea > div{position: relative;}
 .sliderArea .controlArea > div :is(.swiper-button-next, .swiper-button-prev){ width: 42px; height: 42px; background-repeat: no-repeat; background-position: center; background-size: cover; top: 0; margin-top: auto; transform: translateY(-50%);}
 .sliderArea .controlArea > div :is(.swiper-button-next, .swiper-button-prev)::after{display: none;}
-.sliderArea .controlArea > div .swiper-button-prev{background-image: url('../images/icon-slider-prev.png');}
-.sliderArea .controlArea > div .swiper-button-next{background-image: url('../images/icon-slider-next.png');}
+.sliderArea .controlArea > div .swiper-button-prev{background-image: url('../../images/icon-slider-prev.png');}
+.sliderArea .controlArea > div .swiper-button-next{background-image: url('../../images/icon-slider-next.png');}
 
 
 /* 메인페이지 */
 /* 메인페이지 - 최상위 슬라이더 */
 .mainPage .mainSwiper{z-index: 2;}
 .mainPage .mainSwiper .swiper-slide{color: white; box-sizing: border-box; background-repeat: no-repeat; background-position: bottom center; background-size: cover;}
-.mainPage .mainSwiper .swiper-slide.mainSlider01{background-image: url('../images/m-mainSlider01.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider02{background-image: url('../images/m-mainSlider02.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider03{background-image: url('../images/m-mainSlider03.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider04{background-image: url('../images/m-mainSlider04.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider05{background-image: url('../images/m-mainSlider05.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider06{background-image: url('../images/m-mainSlider06.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider07{background-image: url('../images/m-mainSlider07.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider08{background-image: url('../images/m-mainSlider08.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider09{background-image: url('../images/m-mainSlider09.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider10{background-image: url('../images/m-mainSlider10.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider11{background-image: url('../images/m-mainSlider11.jpg');}
-.mainPage .mainSwiper .swiper-slide.mainSlider12{background-image: url('../images/m-mainSlider12.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider01{background-image: url('../../images/m-mainSlider01.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider02{background-image: url('../../images/m-mainSlider02.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider03{background-image: url('../../images/m-mainSlider03.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider04{background-image: url('../../images/m-mainSlider04.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider05{background-image: url('../../images/m-mainSlider05.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider06{background-image: url('../../images/m-mainSlider06.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider07{background-image: url('../../images/m-mainSlider07.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider08{background-image: url('../../images/m-mainSlider08.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider09{background-image: url('../../images/m-mainSlider09.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider10{background-image: url('../../images/m-mainSlider10.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider11{background-image: url('../../images/m-mainSlider11.jpg');}
+.mainPage .mainSwiper .swiper-slide.mainSlider12{background-image: url('../../images/m-mainSlider12.jpg');}
 .mainPage .mainSwiper .swiper-slide div{height: 100%; display: flex; flex-direction: column;}
 .mainPage .mainSwiper .swiper-slide div p{padding-top: 192px; font-size: 14px; font-weight: 500; line-height: 20px;}
 .mainPage .mainSwiper .swiper-slide div p small{display: block; font-size: 12px; font-weight: 200; line-height: 15px; margin-bottom: 2px;}
@@ -38,7 +38,7 @@
 
 /* 메인페이지 - 소개 */
 .mainPage .infoArea{color: white; z-index: 1; position: relative;}
-.mainPage .infoArea::before{content: ''; position: absolute; left: 50%; top: 0; width: 100%; height: calc(100% + 30px); transform: translate(-50% , 0); background: url('../images/m-main-inforBG.png') no-repeat center / 100% 100%; z-index: -1;}
+.mainPage .infoArea::before{content: ''; position: absolute; left: 50%; top: 0; width: 100%; height: calc(100% + 30px); transform: translate(-50% , 0); background: url('../../images/m-main-inforBG.png') no-repeat center / 100% 100%; z-index: -1;}
 .mainPage .infoArea > div{padding: 60px 0 92px; position: relative;}
 .mainPage .infoArea > div h2{font-size: 28px; font-weight: 700; line-height: 40px; margin-bottom: 100px;}
 .mainPage .infoArea > div h2 small{display: block; max-width: 315px; font-size: 18px; line-height: 24px; font-weight: 500; margin-top: 28px;}
@@ -53,10 +53,10 @@
 .mainPage .worksArea ul{color: white;}
 .mainPage .worksArea ul li{ box-sizing: border-box; background-repeat: no-repeat; background-position: center; background-size: cover;}
 .mainPage .worksArea ul li:not(:last-child){border-bottom: 1px solid #aaa;}
-.mainPage .worksArea ul li:nth-child(1){background-image: url('../images/m-main-serviceBG01.png'); padding: 156px 0 40px;}
-.mainPage .worksArea ul li:nth-child(2){background-image: url('../images/m-main-serviceBG02.png'); padding: 120px 0 40px;}
-.mainPage .worksArea ul li:nth-child(3){background-image: url('../images/m-main-serviceBG03.png'); padding: 120px 0 38px;}
-.mainPage .worksArea ul li:nth-child(4){background-image: url('../images/m-main-serviceBG04.png'); padding: 117px 0 67px;}
+.mainPage .worksArea ul li:nth-child(1){background-image: url('../../images/m-main-serviceBG01.png'); padding: 156px 0 40px;}
+.mainPage .worksArea ul li:nth-child(2){background-image: url('../../images/m-main-serviceBG02.png'); padding: 120px 0 40px;}
+.mainPage .worksArea ul li:nth-child(3){background-image: url('../../images/m-main-serviceBG03.png'); padding: 120px 0 38px;}
+.mainPage .worksArea ul li:nth-child(4){background-image: url('../../images/m-main-serviceBG04.png'); padding: 117px 0 67px;}
 .mainPage .worksArea ul li > a{display: block; width: calc(100% - 52px); margin: 0 auto;}
 .mainPage .worksArea ul li:nth-child(1) > a div{max-width: 240px;}
 .mainPage .worksArea ul li:nth-child(2) > a div{max-width: 265px;}
@@ -76,10 +76,10 @@
 .mainPage .newsArea ul{margin-bottom: 60px;}
 .mainPage .newsArea ul.postText:not(:has(:nth-child(1)))::before{padding: 64px 0 135px;}
 .mainPage .newsArea ul.postText:not(:has(:nth-child(1))) + .link-basic{display: none;}
-.mainPage .newsArea ul li a .imgBox:is(:not([style]) ,[style='']){background-image: url('../images/m-news-img.png');}
+.mainPage .newsArea ul li a .imgBox:is(:not([style]) ,[style='']){background-image: url('../../images/m-news-img.png');}
 
 /* 메인페이지 - 커리어 */
-.mainPage .recruitArea{background: black url('../images/main-recruitBG.png') no-repeat center bottom / cover; position: relative;}
+.mainPage .recruitArea{background: black url('../../images/main-recruitBG.png') no-repeat center bottom / cover; position: relative;}
 .mainPage .recruitArea > div{position: relative; height: 520px; padding-top: 124px; padding-left: 34px; box-sizing: border-box;}
 .mainPage .recruitArea > div h2{position: absolute; left: 0; top: -23px; z-index: 1;}
 .mainPage .recruitArea > div P{font-size: 16px; font-weight: 500; line-height: 24px; margin-bottom: 80px; color: white; max-width: 150px;}
@@ -91,7 +91,7 @@
 /* CEO 페이지 */
 .CEOPage section{padding: 86px 0 120px;}
 .CEOPage section h2{margin-bottom: 40px;}
-.CEOPage section figure .imgBox{width: 100%; padding-bottom: 131.92%; background: url('../images/CEO-img.png') no-repeat center / cover; margin-bottom: 80px;}
+.CEOPage section figure .imgBox{width: 100%; padding-bottom: 131.92%; background: url('../../images/CEO-img.png') no-repeat center / cover; margin-bottom: 80px;}
 .CEOPage section figure figcaption h3{font-size: 24px; font-weight: 700; line-height: 31px; margin-bottom: 60px;}
 .CEOPage section figure figcaption > b{display: block; font-size: 18px; font-weight: 500; line-height: 26.8px; margin-bottom: 40px;}
 .CEOPage section figure figcaption p{font-size: 13px; font-weight: 400; color: #5D5D5D; line-height: 19.9642px;}
@@ -106,7 +106,7 @@
 :is(.visionPage , .philosophyPage) section > div{height: 100%; box-sizing: border-box;}
 :is(.visionPage , .philosophyPage) section div h2{font-size: 28px; font-weight: 700; color: #B40A50; line-height: 36px; text-transform: uppercase;}
 .philosophyPage section{background-color: black;}
-.philosophyPage section > div .textArea{background: url('../images/m-philosophyBG.png') no-repeat center / cover; padding-top: 90px; padding-bottom: 100px; margin-bottom: 60px;}
+.philosophyPage section > div .textArea{background: url('../../images/m-philosophyBG.png') no-repeat center / cover; padding-top: 90px; padding-bottom: 100px; margin-bottom: 60px;}
 .philosophyPage section > div .textArea h2{margin-bottom: 80px;}
 .philosophyPage section > div .textArea p{font-size: 14px; line-height: 21.7142px; font-weight: 300; color: white; max-width: 405px; margin-bottom: 12px;}
 .philosophyPage section > div svg{width: 100%;}
@@ -121,9 +121,9 @@
 
 /* 히스토리 2010 페이지*/
 .historyPage .basicPage{transition: 0.5s;}
-.historyPage .basicPage:has(aside a:nth-child(1).active){background-image: url('../images/history-2010BG.png');}
-.historyPage .basicPage:has(aside a:nth-child(2).active){background-image: url('../images/history-2000BG.png');}
-.historyPage .basicPage:has(aside a:nth-child(3).active){background-image: url('../images/history-1965BG.png');}
+.historyPage .basicPage:has(aside a:nth-child(1).active){background-image: url('../../images/history-2010BG.png');}
+.historyPage .basicPage:has(aside a:nth-child(2).active){background-image: url('../../images/history-2000BG.png');}
+.historyPage .basicPage:has(aside a:nth-child(3).active){background-image: url('../../images/history-1965BG.png');}
 .historyPage .basicPage{background-repeat: no-repeat; background-position: center; background-size: cover;}
 .historyPage .basicPage{height: 739px; overflow: hidden;}
 .historyPage .basicPage > div{height: 100%; padding-top: 86px; box-sizing: border-box;}
@@ -165,7 +165,7 @@
 .CIPage section > div div:is(.corporateArea , .designArea) strong{margin-bottom: 40px;}
 .CIPage section > div div:is(.CIArea , .colorArea) strong{margin-bottom: 16px;}
 .CIPage section > div .corporateArea{position: relative; margin-bottom: 104px;}
-.CIPage section > div .corporateArea .imgBox{padding-bottom: 24.1%; background-image: url('../images/m-CI-corporate.png');  margin-bottom: 20px;}
+.CIPage section > div .corporateArea .imgBox{padding-bottom: 24.1%; background-image: url('../../images/m-CI-corporate.png');  margin-bottom: 20px;}
 .CIPage section > div .corporateArea mark{display: block; font-size: 18px; font-weight: 500; line-height: 26px; margin-bottom: 20px;}
 .CIPage section > div .corporateArea b{display: block; font-size: 14px; font-weight: 400; line-height: 24px; margin-bottom: 40px;}
 .CIPage section > div .corporateArea .textArea p{font-size: 14px; font-weight: 300; line-height: 23.6px;}
@@ -194,19 +194,19 @@
 
 
 /* 전문적 지식 페이지 */
-.worksPage .archiPage .topArea{background-image: url('../images/m-architectureBG.png');}
+.worksPage .archiPage .topArea{background-image: url('../../images/m-architectureBG.png');}
 .worksPage .archiPage .topArea > div p{max-width: 245px;}
-.worksPage .activePage .topArea{background-image: url('../images/m-architecture-activeBG.png');}
+.worksPage .activePage .topArea{background-image: url('../../images/m-architecture-activeBG.png');}
 .worksPage .activePage .topArea > div p{max-width: 270px;}
-.worksPage .alivePage .topArea{background-image: url('../images/m-architecture-aliveBG.png');}
+.worksPage .alivePage .topArea{background-image: url('../../images/m-architecture-aliveBG.png');}
 .worksPage .alivePage .topArea > div p{max-width: 260px;}
-.worksPage .aheadPage .topArea{background-image: url('../images/m-architecture-aheadBG.png');}
+.worksPage .aheadPage .topArea{background-image: url('../../images/m-architecture-aheadBG.png');}
 .worksPage .aheadPage .topArea > div p{max-width: 250px;}
-.worksPage .advancedPage .topArea{background-image: url('../images/m-architecture-advancedBG.png');}
+.worksPage .advancedPage .topArea{background-image: url('../../images/m-architecture-advancedBG.png');}
 .worksPage .advancedPage .topArea > div p{max-width: 285px;}
-.worksPage .CMDMPage .topArea{background-image: url('../images/works-CMDMBG.jpg');}
+.worksPage .CMDMPage .topArea{background-image: url('../../images/works-CMDMBG.jpg');}
 .worksPage .CMDMPage .topArea > div p{max-width: 255px;}
-.worksPage .technicalPage .topArea{background-image: url('../images/works-technicalBG.png');}
+.worksPage .technicalPage .topArea{background-image: url('../../images/works-technicalBG.png');}
 .icon-arrow::before{content: ''; width: 26px; height: 26px; background-repeat: no-repeat; background-position: center; background-size: cover; margin-right: 2px;}
 
 .worksPage :is(.archiPage , .activePage , .technicalPage) .topArea{padding: 52px 0;}
@@ -218,7 +218,7 @@
 .worksPage section .topArea > div{transform: translateX(2px);}
 .worksPage section .topArea > div h2{text-transform: capitalize; margin-bottom: 15px;}
 .worksPage section .topArea > div div{display: flex; align-items: center; margin-bottom: 16px; transform: translateX(-5px);}
-.worksPage section .topArea > div div::before{background-image: url('../images/icon-arrow-right-white2.png');}
+.worksPage section .topArea > div div::before{background-image: url('../../images/icon-arrow-right-white2.png');}
 .worksPage section .topArea > div div a{display: flex; font-size: 14px; font-weight: 500; line-height: 20px;}
 .worksPage section .topArea > div div a:hover{text-decoration: underline;}
 .worksPage section .topArea > div div a:hover::after{text-decoration: none;}
@@ -227,7 +227,7 @@
 .worksPage section .titleArea{padding-top: 115px; margin-bottom: 80px;}
 .worksPage section .titleArea h2{font-size: 50px; font-weight: 700; line-height: 64px; text-transform: uppercase; margin-bottom: 8px;}
 .worksPage section .titleArea small{display: flex; align-items: center; font-size: 16px; line-height: 24px; font-weight: 700;}
-.worksPage section .titleArea small::before{background-image: url('../images/icon-arrow-right-point.png');}
+.worksPage section .titleArea small::before{background-image: url('../../images/icon-arrow-right-point.png');}
 .worksPage section .list-works{gap: 40px 4px;}
 .worksPage section .list-works li:nth-child(1){order: 3;}
 .worksPage section .list-works li:nth-child(2){order: 2;}
@@ -251,7 +251,7 @@
 /* 전문적 지식 페이지 - 상세 페이지 */
 /* 전문적 지식 페이지 - 상세 페이지 - 슬라이더 */
 .worksPage .detailPage .sliderArea{position: relative; margin-bottom: 60px; overflow: hidden;}
-.worksPage .detailPage .sliderArea .worksDetailSwiper .swiper-slide{background: url('../images/works-detailBG.png') no-repeat center bottom / cover; text-indent: -9999px;}
+.worksPage .detailPage .sliderArea .worksDetailSwiper .swiper-slide{background: url('../../images/works-detailBG.png') no-repeat center bottom / cover; text-indent: -9999px;}
 .worksPage .detailPage .sliderArea .textArea{position: absolute; left: 0; bottom: 0; width: 100%; z-index: 1; padding: 27px 0 46px; background-color: rgba(0, 0, 0, 0.6);}
 .worksPage .detailPage .sliderArea .textArea::before{content: ''; position: absolute; left: 0; top: 0; transform: translateY(-100%); width: 100%; height: 224px; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%); opacity: 0.6; pointer-events: none;}
 .worksPage .detailPage .sliderArea .textArea > div::after{content: ''; display: block; clear: both;}
@@ -267,7 +267,7 @@
 .worksPage .detailPage .sliderArea .textArea > div div p{max-width: 330px; font-size: 12px; font-weight: 400; color: rgba(255, 255, 255, 0.7); line-height: 17.8333px;}
 .worksPage .detailPage .sliderArea .buttonArea{position: absolute; left: 0; width: 100%; z-index: 1; pointer-events: none; z-index: 11;}
 .worksPage .detailPage .sliderArea .buttonArea div{max-width: 672px; display: flex; justify-content: flex-end; width: calc(100% - 48px); margin: 0 auto;}
-.worksPage .detailPage .sliderArea .buttonArea div button{width: 32px; height: 32px; background-image: url('../images/icon-down.png'); pointer-events: all;}
+.worksPage .detailPage .sliderArea .buttonArea div button{width: 32px; height: 32px; background-image: url('../../images/icon-down.png'); pointer-events: all;}
 .worksPage .detailPage .sliderArea .sliderPager .swiper-pagination{bottom: 46px; transition: bottom 0.5s;}
 .worksPage .detailPage .sliderArea .controlArea{z-index: 2;}
 
@@ -315,7 +315,7 @@
 
 /* 뉴스 페이지 - 뉴스 */
 .newsPage section .list-news li a .imgBox{height: 221px;}
-.newsPage section .list-news li a .imgBox:is(:not([style]) ,[style='']){background-image: url('../images/m-news-img.png');}
+.newsPage section .list-news li a .imgBox:is(:not([style]) ,[style='']){background-image: url('../../images/m-news-img.png');}
 .newsPage section .list-news li a *:not(.imgBox){padding: 0;}
 .newsPage section .list-news li a time{line-height: 17px; margin-bottom: 2px; color: #888888;}
 .newsPage section .list-news.postText:not(:has(:nth-child(1)))::before{padding: 240px 0 279px;}
@@ -350,7 +350,7 @@
 .awardPage .basicPage > div{padding: 86px 0 80px; box-sizing: border-box; }
 .awardPage .basicPage > div h2{margin-bottom: 72px;}
 .awardPage .basicPage > div ol{position: relative;}
-.awardPage .basicPage > div ol::before{content: ''; position: absolute; left: 0; top: 0; width: 720px; height: 100%; background: url('../images/m-awardBG.png') no-repeat left top / 720px;}
+.awardPage .basicPage > div ol::before{content: ''; position: absolute; left: 0; top: 0; width: 720px; height: 100%; background: url('../../images/m-awardBG.png') no-repeat left top / 720px;}
 .awardPage .basicPage > div ol li{padding-left: 70px; max-width: 320px; margin-left: auto; position: relative;}
 .awardPage .basicPage > div ol li:not(:last-child){padding-bottom: 48px; border-left: 1px solid #E2E2E2;}
 .awardPage .basicPage > div ol li::before{content: ''; position: absolute; left: 0px; border-radius: 100%; transform: translateX(-50%); z-index: 1;}
@@ -376,7 +376,7 @@
 .searchPage section > form .searchArea{ position: relative; margin-bottom: 44px;}
 .searchPage section > form .searchArea input{width: 100%; height: 36px; font-size: 14px; padding: 0 12px; border: 1px solid #C7C7C7; box-sizing: border-box; outline: none;}
 .searchPage section > form .searchArea input::placeholder{color: #C7C7C7;}
-.searchPage section > form .searchArea button{position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; background-image: url('../images/icon-search-black.png');}
+.searchPage section > form .searchArea button{position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; background-image: url('../../images/icon-search-black.png');}
 .searchPage section > .linkArea{display: flex; border-bottom: 2px solid #c7c7c7;}
 .searchPage section > .linkArea a{font-size: 18px; font-weight: 700; line-height: 24px; padding-bottom: 8px;}
 .searchPage section > .linkArea a:not(:last-child){margin-right: 20px;}
@@ -409,12 +409,12 @@
 .peoplePage .basicPage .tabContent .peopleArea ul li{background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; padding-bottom: max(59.34% , 197px);}
 .peoplePage .basicPage .tabContent .peopleArea ul.ceoArea li{width: 100%;}
 .peoplePage .basicPage .tabContent .peopleArea ul:not(.ceoArea) li{width: calc((100% - 4px) / 2);}
-.peoplePage .basicPage .tabContent .peopleArea ul li::after{content: ''; position: absolute; right: 16px; bottom: 16px; width: 26px; height: 26px; background: url('../images/icon-people.png') no-repeat center / cover; z-index: 1; pointer-events: none;}
+.peoplePage .basicPage .tabContent .peopleArea ul li::after{content: ''; position: absolute; right: 16px; bottom: 16px; width: 26px; height: 26px; background: url('../../images/icon-people.png') no-repeat center / cover; z-index: 1; pointer-events: none;}
 .peoplePage .basicPage .tabContent .peopleArea ul li a{position: absolute; left: 0; top: 0; width: 100%; height: 100%; padding: 9px 8px; box-sizing: border-box; z-index: 1;}
 .peoplePage .basicPage .tabContent .peopleArea ul li a small{display: block; font-size: 11px; font-weight: 400; line-height: 16px;}
 .peoplePage .basicPage .tabContent .peopleArea ul li a strong{display: block; font-size: 16px; font-weight: 500; line-height: 24px;}
 .peoplePage .basicPage .tabContent .peopleArea ul li a div{position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: -1;}
-.peoplePage .basicPage .tabContent .peopleArea ul li a div:is(:not([style]) ,[style='']){background-image: url('../images/m-people-active-img.png');}
+.peoplePage .basicPage .tabContent .peopleArea ul li a div:is(:not([style]) ,[style='']){background-image: url('../../images/m-people-active-img.png');}
 .peoplePage .basicPage .tabContent .groupArea div{margin-bottom: 80px;}
 .peoplePage .basicPage .tabContent .groupArea div strong{display: block; font-size: 18px; line-height: 26.5px; font-weight: 500; margin-bottom: 40px;}
 .peoplePage .basicPage .tabContent .groupArea div p{font-size: 13px; font-weight: 400; line-height: 19.8px; color: #5D5D5D;}
@@ -424,7 +424,7 @@
 .peoplePage .detailPage{padding-top: 86px; padding-bottom: 80px;}
 .peoplePage .detailPage h2{line-height: 37px; margin-bottom: 39px;}
 .peoplePage .detailPage .imgBox{padding-bottom: max(54.22% , 180px); margin-bottom: 18px;}
-.peoplePage .detailPage .imgBox:is(:not([style]) ,[style='']){background-image: url('../images/people-detail-img.png');}
+.peoplePage .detailPage .imgBox:is(:not([style]) ,[style='']){background-image: url('../../images/people-detail-img.png');}
 .peoplePage .detailPage h3{font-size: 18px; font-weight: 500; line-height: 26px; display: flex; align-items: flex-end; padding-bottom: 8px; border-bottom: 2px solid #b40a50; margin-bottom: 36px;}
 .peoplePage .detailPage h3 small{font-size: 12px; font-weight: 400; line-height: 20px; margin-left: 12px; margin-bottom: -1px;}
 .peoplePage .detailPage h3:not(:has(+ .infoArea)){margin-bottom: 160px;}
@@ -435,8 +435,8 @@
 .peoplePage .detailPage .infoArea > div.iconArea ul li{display: flex; align-items: center;}
 .peoplePage .detailPage .infoArea > div.iconArea ul li:not(:last-child){margin-bottom: 12px;}
 .peoplePage .detailPage .infoArea > div.iconArea ul li::before{content: ''; width: 24px; height: 24px; background-repeat: no-repeat; background-position: center; background-size: cover; margin-right: 12px;}
-.peoplePage .detailPage .infoArea > div.iconArea ul li.phone::before{background-image: url('../images/icon-phone.png');}
-.peoplePage .detailPage .infoArea > div.iconArea ul li.mail::before{background-image: url('../images/icon-mail.png');}
+.peoplePage .detailPage .infoArea > div.iconArea ul li.phone::before{background-image: url('../../images/icon-phone.png');}
+.peoplePage .detailPage .infoArea > div.iconArea ul li.mail::before{background-image: url('../../images/icon-mail.png');}
 .peoplePage .detailPage .link-list{margin-left: auto;}
 
 
@@ -449,7 +449,7 @@
 
 /* 모집 페이지 - 인사제도 */
 .recruitPage .personnelPage{padding-bottom: 142px;}
-.recruitPage .personnelPage .topArea{background-image: url('../images/m-recruit-personnelBG.png');}
+.recruitPage .personnelPage .topArea{background-image: url('../../images/m-recruit-personnelBG.png');}
 .recruitPage .personnelPage .contentArea .humanResources{margin-bottom: 90px;}
 .recruitPage .personnelPage .contentArea .humanResources strong{margin-bottom: 62px;}
 .recruitPage .personnelPage .contentArea .humanResources ul{text-align: center;}
@@ -457,11 +457,11 @@
 .recruitPage .personnelPage .contentArea .humanResources ul li b{font-size: 18px; font-weight: 500; line-height: 26px; display: flex; justify-content: center; align-items: center; margin-bottom: 20px;}
 .recruitPage .personnelPage .contentArea .humanResources ul li b mark{font-size: 24px; font-weight: 700; line-height: 31px; margin-right: 8px;}
 .recruitPage .personnelPage .contentArea .humanResources ul li b::before{content: ''; width: 36px; height: 36px; background-repeat: no-repeat; background-position: center; background-size: cover; margin-right: 12px;}
-.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(1) b::before{background-image: url('../images/recruit-humanResources01.png');}
-.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(2) b::before{background-image: url('../images/recruit-humanResources02.png');}
-.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(3) b::before{background-image: url('../images/recruit-humanResources03.png');}
-.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(4) b::before{background-image: url('../images/recruit-humanResources04.png');}
-.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(5) b::before{background-image: url('../images/recruit-humanResources05.png');}
+.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(1) b::before{background-image: url('../../images/recruit-humanResources01.png');}
+.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(2) b::before{background-image: url('../../images/recruit-humanResources02.png');}
+.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(3) b::before{background-image: url('../../images/recruit-humanResources03.png');}
+.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(4) b::before{background-image: url('../../images/recruit-humanResources04.png');}
+.recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(5) b::before{background-image: url('../../images/recruit-humanResources05.png');}
 .recruitPage .personnelPage .contentArea .humanResources ul li p{font-size: 14px; font-weight: 300; color: #666666; line-height: 22px; margin: 0 auto;}
 .recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(1) p{max-width: 300px;}
 .recruitPage .personnelPage .contentArea .humanResources ul li:nth-child(2) p{max-width: 250px;}
@@ -475,8 +475,8 @@
 .recruitPage .personnelPage .contentArea .promotionSystem ul{text-align: center;}
 .recruitPage .personnelPage .contentArea .promotionSystem ul li{padding-top: 80px; background-repeat: no-repeat; background-position: center top; background-size: 64px;}
 .recruitPage .personnelPage .contentArea .promotionSystem ul li:not(:last-child){margin-bottom: 92px;}
-.recruitPage .personnelPage .contentArea .promotionSystem ul li:nth-child(1){background-image: url('../images/recruit-promotionSystem01.png');}
-.recruitPage .personnelPage .contentArea .promotionSystem ul li:nth-child(2){background-image: url('../images/recruit-promotionSystem02.png');}
+.recruitPage .personnelPage .contentArea .promotionSystem ul li:nth-child(1){background-image: url('../../images/recruit-promotionSystem01.png');}
+.recruitPage .personnelPage .contentArea .promotionSystem ul li:nth-child(2){background-image: url('../../images/recruit-promotionSystem02.png');}
 .recruitPage .personnelPage .contentArea .promotionSystem ul li b{display: block; font-size: 18px; font-weight: 500; line-height: 26px; margin-bottom: 16px;}
 .recruitPage .personnelPage .contentArea .promotionSystem ul li p{font-size: 14px; font-weight: 300; line-height: 23px; color: #666666; max-width: 299px; margin: 0 auto;}
 .recruitPage .personnelPage .contentArea .compensationSystem{padding-top: 52px;}
@@ -486,7 +486,7 @@
 .recruitPage .personnelPage .contentArea .compensationSystem ol li:not(:last-child){margin-bottom: 120px;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li div b{display: inline-flex; justify-content: center; align-items: center; font-size: 18px; font-weight: 500; line-height: 26px; margin-bottom: 16px; position: relative;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li div b::before{content: '0' counter(compensationSystem); position: absolute; left: 0; bottom: 0; font-size: 60px; font-weight: 100; color: #EFEFEF; line-height: 1; z-index: -1;}
-.recruitPage .personnelPage .contentArea .compensationSystem ol li div b::after{content: ''; width: 34px; height: 34px; background: url('../images/recruit-compensationSystemImg.png') no-repeat center / cover; margin-left: 8px;}
+.recruitPage .personnelPage .contentArea .compensationSystem ol li div b::after{content: ''; width: 34px; height: 34px; background: url('../../images/recruit-compensationSystemImg.png') no-repeat center / cover; margin-left: 8px;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li:nth-child(1) div b{padding-left: 50.32px;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li:nth-child(2) div b{padding-left: 50.24px;}
 .recruitPage .personnelPage .contentArea .compensationSystem ol li:nth-child(3) div b{padding-left: 50.24px;}
@@ -494,18 +494,18 @@
 
 /* 모집 페이지 - 복리후생 */
 .recruitPage .welfarePage{padding-bottom: 140px;}
-.recruitPage .welfarePage .topArea{background-image: url('../images/m-recruit-welfareBG.png');}
+.recruitPage .welfarePage .topArea{background-image: url('../../images/m-recruit-welfareBG.png');}
 .recruitPage .welfarePage .contentArea .supportArea strong{margin-bottom: 62px;}
 .recruitPage .welfarePage .contentArea .supportArea ul li:not(:last-child){margin-bottom: 80px;}
 .recruitPage .welfarePage .contentArea .supportArea ul li > *{padding: 0 12px;}
 .recruitPage .welfarePage .contentArea .supportArea ul li b{display: flex; align-items: flex-end; font-size: 18px; font-weight: 500; line-height: 26px; padding-bottom: 16px; border-bottom: 1px solid #E2E2E2; margin-bottom: 12px;}
 .recruitPage .welfarePage .contentArea .supportArea ul li b::before{content: ''; background-repeat: no-repeat; background-position: center; background-size: cover;}
-.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(1) b::before{background-image: url('../images/recruit-support01.png'); width: 38px; height: 36px; margin-right: 12px;}
-.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(2) b::before{background-image: url('../images/recruit-support02.png'); width: 38px; height: 36px; margin-right: 12px;}
-.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(3) b::before{background-image: url('../images/recruit-support03.png'); width: 40px; height: 34px; margin-right: 12px;}
-.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(4) b::before{background-image: url('../images/recruit-support04.png'); width: 38px; height: 34px; margin-right: 12px;}
-.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(5) b::before{background-image: url('../images/recruit-support05.png'); width: 42px; height: 34px; margin-right: 10px;}
-.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(6) b::before{background-image: url('../images/recruit-support06.png'); width: 40px; height: 34px; margin-right: 12px;}
+.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(1) b::before{background-image: url('../../images/recruit-support01.png'); width: 38px; height: 36px; margin-right: 12px;}
+.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(2) b::before{background-image: url('../../images/recruit-support02.png'); width: 38px; height: 36px; margin-right: 12px;}
+.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(3) b::before{background-image: url('../../images/recruit-support03.png'); width: 40px; height: 34px; margin-right: 12px;}
+.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(4) b::before{background-image: url('../../images/recruit-support04.png'); width: 38px; height: 34px; margin-right: 12px;}
+.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(5) b::before{background-image: url('../../images/recruit-support05.png'); width: 42px; height: 34px; margin-right: 10px;}
+.recruitPage .welfarePage .contentArea .supportArea ul li:nth-child(6) b::before{background-image: url('../../images/recruit-support06.png'); width: 40px; height: 34px; margin-right: 12px;}
 .recruitPage .welfarePage .contentArea .supportArea ul li p{font-size: 14px; font-weight: 300; color: #666666; line-height: 22px; letter-spacing: -0.06em;}
 
 
