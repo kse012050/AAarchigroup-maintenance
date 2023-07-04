@@ -110,7 +110,7 @@ function peopleDetailPage(){
                 <li class="mail">${data.data.email}</li>
             </ul>
         </div>`
-        htmlContent += `</div><a href="people.html" class="link-list">목록으로</a>`
+        htmlContent += `</div><a href="people.html" class="link-list">List</a>`
         $('.peoplePage .detailPage').html(htmlContent)
       })
       .catch(function(error){
@@ -264,7 +264,7 @@ function announcementPage(){
             data.list.map((list)=>{
                 htmlContent += `<li>
                                     <a href="announcement-detail.html?id=${list.board_id}">
-                                        <span>${list.board_id}</span>
+                                        <span>${((locationData.page - 1) * 10) + (idx + 1)}</span>
                                         <p>${list.subject}</p>
                                         <time>${list.reg_date}</time>
                                     </a>
