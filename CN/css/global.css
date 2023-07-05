@@ -24,7 +24,8 @@ header,
 
 /* 메뉴 중문 폰트 */
 [class|="GNB"] > ul > li > ul li a:not(:first-child),
-.GNB-recruit > ul > li > a:first-child{font-family: 'Noto Sans SC', sans-serif;}
+.GNB-recruit > ul > li > a:first-child,
+.peoplePage .detailPage h2 span{font-family: 'Noto Sans SC', sans-serif;}
 
 /* 접근성 */
 .textHidden{height: 0.01px; overflow: hidden;}

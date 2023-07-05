@@ -83,7 +83,7 @@ function peopleDetailPage(){
       .then(function(data) {
         let htmlContent = '';
         htmlContent += `
-            <h2 class="titleBox-black">PEOPLE > ${data.data.department}</h2>
+            <h2 class="titleBox-black">PEOPLE > <span>${data.data.department}</span></h2>
             <div class="imgBox PCTablet" ${data.data.profile_detail_url ? `style="background-image: url(${data.data.profile_detail_url});` : ''}">${data.data.responsibilities} ${data.data.name} 이미지</div>
             <div class="imgBox mobile" ${data.data.m_profile_detail_url ? `style="background-image: url(${data.data.m_profile_detail_url});` : ''}">${data.data.responsibilities} ${data.data.name} 이미지</div>
             <h3>${data.data.name} <small>${data.data.department}${data.data.department !== data.data.responsibilities ? ' / ' + data.data.responsibilities : ''}</small></h3>
