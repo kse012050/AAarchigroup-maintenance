@@ -37,7 +37,7 @@ function mainPage(){
         data.map((data)=>{
             $('.mainPage .newsArea ul').append(
                 `<li>
-                    <a href="${data.board_id}">
+                    <a href="news-detail.html?id=${data.board_id}">
                         <div class="imgBox" style="background-image: url('${data.image_url}');"></div>
                         <time>${data.reg_date}</time>
                         <p>${data.subject}</p>
@@ -239,7 +239,6 @@ function newsAnnouncementDetailPage(){
     const locationData = locationFunc();
     api.detail(locationData.id)
         .then(function(data) {
-            console.log(data);
             $(':is(.newsPage , .announcementPage) .detailPage .titleArea h3').html(data.data.subject)
             $(':is(.newsPage , .announcementPage) .detailPage .titleArea time').html(data.data.reg_date)
             $(':is(.newsPage , .announcementPage) .detailPage .editor').html(data.data.content)

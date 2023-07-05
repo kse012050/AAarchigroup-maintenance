@@ -289,7 +289,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 /* 전문적 지식 페이지 - 상세 페이지 */
 /* 전문적 지식 페이지 - 상세 페이지 - 슬라이더 */
 .worksPage .detailPage .sliderArea{position: relative; margin-bottom: 140px; overflow: hidden;}
-.worksPage .detailPage .sliderArea .worksDetailSwiper .swiper-slide{background: url('../images/works-detailBG.png') no-repeat center bottom / cover; text-indent: -9999px;}
+.worksPage .detailPage .sliderArea .worksDetailSwiper .swiper-slide{background: url('../images/works-detailBG.png') no-repeat center bottom / cover; text-indent: -9999px; color: transparent;}
 .worksPage .detailPage .sliderArea .textArea{position: absolute; left: 0; bottom: 0; width: 100%; z-index: 1; padding: 20px 0 34px; background-color: rgba(0, 0, 0, 0.6);}
 .worksPage .detailPage .sliderArea .textArea::before{content: ''; position: absolute; left: 0; top: 0; transform: translateY(-100%); width: 100%; height: 155px; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%); opacity: 0.6; pointer-events: none;}
 .worksPage .detailPage .sliderArea .textArea > div::after{content: ''; display: block; clear: both;}

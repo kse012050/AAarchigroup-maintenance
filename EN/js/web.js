@@ -239,7 +239,6 @@ function newsAnnouncementDetailPage(){
     const locationData = locationFunc();
     api.detail(locationData.id)
         .then(function(data) {
-            console.log(data);
             $(':is(.newsPage , .announcementPage) .detailPage .titleArea h3').html(data.data.subject)
             $(':is(.newsPage , .announcementPage) .detailPage .titleArea time').html(data.data.reg_date)
             $(':is(.newsPage , .announcementPage) .detailPage .editor').html(data.data.content)
@@ -261,7 +260,7 @@ function announcementPage(){
     api.announcement()
         .then(function(data) {
             let htmlContent = ''
-            data.list.map((list)=>{
+            data.list.map((list, idx)=>{
                 htmlContent += `<li>
                                     <a href="announcement-detail.html?id=${list.board_id}">
                                         <span>${((locationData.page - 1) * 10) + (idx + 1)}</span>
