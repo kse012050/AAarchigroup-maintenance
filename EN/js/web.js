@@ -326,8 +326,8 @@ function searchPage(){
                 list.type === '100' && ( htmlContent +=`<a href="news-detail.html` )
                 htmlContent += `?id=${list.board_id}">`
                 list.type === '300' && (htmlContent += `<small>Works</small>`)
-                list.type === '200' && (htmlContent += `<small>Announcement</small>`)
-                list.type === '100' && (htmlContent += `<small>News</small>`)
+                list.type === '200' && (htmlContent += `<small>News>Announcement</small>`)
+                list.type === '100' && (htmlContent += `<small>News>News</small>`)
                 htmlContent += `<p>${list.subject}</p></a></li>`
             })
             $('.searchPage section > ul').html(htmlContent)
