@@ -322,9 +322,11 @@ function searchPage(){
             data.list.map((list)=>{
                 htmlContent += `<li>`
                 list.type === '300' && ( htmlContent +=`<a href="works-detail.html` )
+                list.type === '200' && ( htmlContent +=`<a href="announcement-detail.html` )
                 list.type === '100' && ( htmlContent +=`<a href="news-detail.html` )
                 htmlContent += `?id=${list.board_id}">`
                 list.type === '300' && (htmlContent += `<small>Works</small>`)
+                list.type === '200' && (htmlContent += `<small>Announcement</small>`)
                 list.type === '100' && (htmlContent += `<small>News</small>`)
                 htmlContent += `<p>${list.subject}</p></a></li>`
             })
