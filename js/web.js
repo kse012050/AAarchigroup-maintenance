@@ -38,7 +38,7 @@ function mainPage(){
             $('.mainPage .newsArea ul').append(
                 `<li>
                     <a href="news-detail.html?id=${data.board_id}">
-                        <div class="imgBox" ${data.image_url ? `style=background-image: url(${data.image_url});` : ''}"></div>
+                        <div class="imgBox" ${data.image_url ? `style="background-image: url(${data.image_url});"` : ''}"></div>
                         <time>${data.reg_date}</time>
                         <p>${data.subject}</p>
                     </a>
@@ -222,7 +222,7 @@ function newsPage(){
             data.list.map((list)=>{
                 htmlContent += `<li>
                                     <a href="news-detail.html?id=${list.board_id}">
-                                        <div class="imgBox" ${list.image_url ? `style=background-image: url(${list.image_url});` : ''}"></div>
+                                        <div class="imgBox" ${list.image_url ? `style="background-image: url(${list.image_url});"` : ''}"></div>
                                         <time>${list.reg_date}</time>
                                         <p>${list.subject}</p>
                                     </a>
