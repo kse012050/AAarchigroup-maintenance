@@ -38,7 +38,7 @@ function mainPage(){
             $('.mainPage .newsArea ul').append(
                 `<li>
                     <a href="${data.board_id}">
-                        <div class="imgBox" style="background-image: url('${data.image_url}');"></div>
+                    <div class="imgBox" ${data.image_url ? `style="background-image: url(${data.image_url});"` : ''}"></div>
                         <time>${data.reg_date}</time>
                         <p>${data.subject}</p>
                     </a>
