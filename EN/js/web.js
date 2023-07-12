@@ -209,6 +209,17 @@ function worksDetailPage(){
                 }
             })
             $('.portfolioArea .list-detail').html(htmlContent)
+
+            var worksDetail = new Swiper(".worksDetailSwiper", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
         })
         .catch(function(error){
         console.error(error)

@@ -199,7 +199,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .CIPage section > div :is(.designArea , .CIArea){margin-bottom: 200px;}
 .CIPage section > div .designArea strong{margin-bottom: 80px;}
 .CIPage section > div .designArea figure{display: flex; justify-content: space-between; align-items: flex-start;}
-.CIPage section > div .designArea figure img{order: 1; width: 1065px; margin-left: 20px;}
+.CIPage section > div .designArea figure img{order: 1; width: 945px; margin-left: 40px;}
 .CIPage section > div .designArea figure figcaption mark{display: block; font-size: 24px; font-weight: 400; line-height: 33.5px; margin-bottom: 40px;}
 .CIPage section > div .designArea figure figcaption p{font-size: 18px; font-weight: 300; line-height: 26.9px;}
 .CIPage section > div .designArea figure figcaption p:not(:last-of-type){margin-bottom: 26.9px;}

@@ -161,16 +161,16 @@ function mainPage(){
 // 전문적 지식 상세 페이지
 function worksDetail(){
      // 슬라이더
-     var worksDetail = new Swiper(".worksDetailSwiper", {
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
+    //  var worksDetail = new Swiper(".worksDetailSwiper", {
+    //     pagination: {
+    //         el: ".swiper-pagination",
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: ".swiper-button-next",
+    //         prevEl: ".swiper-button-prev",
+    //     },
+    // });
 
     // 슬라이더 정보 클릭
     $('[data-click="infor"]').click(function(){

@@ -359,7 +359,7 @@
 .awardPage .basicPage > div ol li::after{content: ''; position: absolute; left: 0; top: 6px; width: 61px; border-top: 2px dotted #CE7297;}
 .awardPage .basicPage > div ol li time{display: block; font-size: 12px; font-weight: 400; color: #A0A0A0; line-height: 17px; margin-bottom: 8px;}
 .awardPage .basicPage > div ol li p{font-size: 14px; font-weight: 500; line-height: 20px; margin-bottom: 4px;}
-.awardPage .basicPage > div ol li p small{display: block; font-size: 14px; font-weight: 400; line-height: 20px;}
+.awardPage .basicPage > div ol li p small{display: block; font-size: 14px; font-weight: 200; line-height: 20px;}
 
 
 /* 서치 페이지 */

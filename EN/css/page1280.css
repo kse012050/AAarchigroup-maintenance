@@ -197,7 +197,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .CIPage section > div .designArea{margin-bottom: 131px;}
 .CIPage section > div .designArea strong{margin-bottom: 52px;}
 .CIPage section > div .designArea figure{display: flex; justify-content: space-between; align-items: flex-start;}
-.CIPage section > div .designArea figure img{order: 1; width: 716px;}
+.CIPage section > div .designArea figure img{order: 1; width: 700px; margin-left: 40px;}
 .CIPage section > div .designArea figure figcaption{width: 301px;}
 .CIPage section > div .designArea figure figcaption mark{display: block; font-size: 16px; font-weight: 400; line-height: 23px; margin-bottom: 26px;}
 .CIPage section > div .designArea figure figcaption p{font-size: 12px; font-weight: 300; line-height: 17.9px;}
