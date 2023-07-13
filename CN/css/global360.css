@@ -41,7 +41,7 @@ br:not(.all , .mobileBr){display: none;}
 .worksPage .list-works li a .imgBox{margin-bottom: 6px;}
 .worksPage .list-detail li a .imgBox{margin-bottom: 2px;}
 .worksPage [class|="list"] li a p{font-size: 12px; font-weight: 700; line-height: 17px;}
-.postText:not(:has(:nth-child(1)))::before{content: '등록된 게시글이 없습니다.'; display: block; width: 100%; font-size: 12px; font-weight: 400; line-height: 17px; color: #888888; text-align: center;}
+.postText:not(:has(:nth-child(1)))::before{content: '已登记的帖子不存在'; display: block; width: 100%; font-size: 12px; font-weight: 400; line-height: 17px; color: #888888; text-align: center;}
 .postText:not(:has(:nth-child(1))) + .pagerBox{display: none;}
 
 /* 페이저 */

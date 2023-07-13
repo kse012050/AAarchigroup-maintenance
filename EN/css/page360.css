@@ -368,8 +368,8 @@
 .searchPage section > p b{color: #1a1a1a;}
 .searchPage section > p b::before,
 .searchPage section > p b::after{content: '"'; color: #aaa;}
-.searchPage section > p mark{font-weight: 500; margin-left: 8px;}
-.searchPage section > p mark::after{content: '건';}
+.searchPage section > p mark{font-weight: 500; margin-right: 20px;}
+.searchPage section > p mark::after{content: '';}
 .searchPage section > p:not(.active) *{display: none;}
 .searchPage section > p:not(.active)::after{content: '검색어를 입력해주세요'; display: block;}
 .searchPage section > form .searchArea{ position: relative; margin-bottom: 44px;}

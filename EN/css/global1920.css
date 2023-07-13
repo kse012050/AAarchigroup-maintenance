@@ -39,7 +39,7 @@
 .list-news{gap: 120px 16px;}
 .list-news li{width: calc((100% - 32px) / 3);}
 .list-news li a .imgBox{background-size: contain;}
-.postText:not(:has(:nth-child(1)))::before{content: '등록된 게시글이 없습니다.'; display: block; width: 100%; padding: 320px 0 200px; font-size: 18px; font-weight: 400; color: #888888; text-align: center;}
+.postText:not(:has(:nth-child(1)))::before{content: 'There are no posts yet'; display: block; width: 100%; padding: 320px 0 200px; font-size: 18px; font-weight: 400; color: #888888; text-align: center;}
 .postText:not(:has(:nth-child(1))) + .pagerBox{display: none;}
 
 /* 페이저 */

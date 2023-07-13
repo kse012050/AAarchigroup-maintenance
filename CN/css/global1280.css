@@ -40,7 +40,7 @@
 .worksPage [class|="list"] li a :not(.imgBox){padding: 0 8px;}
 .worksPage [class|="list"] li a .imgBox{margin-bottom: 6px;}
 .worksPage [class|="list"] li a p{font-size: 16px; font-weight: 700; line-height: 24px;}
-.postText:not(:has(:nth-child(1)))::before{content: '등록된 게시글이 없습니다.'; display: block; width: 100%; padding: 320px 0 200px; font-size: 12px; font-weight: 400; color: #888888; text-align: center;}
+.postText:not(:has(:nth-child(1)))::before{content: '已登记的帖子不存在'; display: block; width: 100%; padding: 320px 0 200px; font-size: 12px; font-weight: 400; color: #888888; text-align: center;}
 .postText:not(:has(:nth-child(1))) + .pagerBox{display: none;}
 
 /* 페이저 */

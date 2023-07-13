@@ -405,7 +405,7 @@ color: #aaa; transition: background-image 0.5s; position: relative;}
 .searchPage section > p b::before,
 .searchPage section > p b::after{content: '"'; color: #aaa;}
 .searchPage section > p mark{font-weight: 500; margin-left: 16px;}
-.searchPage section > p mark::after{content: '건';}
+.searchPage section > p mark::after{content: '件';}
 .searchPage section > .linkArea{display: flex; padding: 0 40px; border-bottom: 1px solid #c7c7c7;}
 .searchPage section > .linkArea a{font-size: 22px; font-weight: 700; line-height: 28px; padding-bottom: 12px;}
 .searchPage section > .linkArea a:not(:last-child){margin-right: 52px;}
