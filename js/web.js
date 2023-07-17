@@ -10,7 +10,8 @@ $(document).ready(function(){
     $('.newsPage .detailPage').length && newsAnnouncementDetailPage();
     $('.announcementPage .basicPage').length && announcementPage();
     $('.announcementPage .detailPage').length && newsAnnouncementDetailPage();
-    $('.CIPage').length && ciPage();
+    // https 문제로 임시 제거 ( a 태그 이용한 다운로드 )
+    // $('.CIPage').length && ciPage();
     $('.searchPage').length && searchPage();
 });
 

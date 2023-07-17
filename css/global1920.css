@@ -71,6 +71,8 @@ header > div nav > ul > li:not(:last-child){margin-right: 125px;}
 header > div nav > ul > li > a{font-size: 20px; font-weight: 300; line-height: 74px;}
 header > div > div{position: absolute; right: 0; top: 0; height: 100%; display: flex; align-items: center; color: white;}
 header > div > div .searchArea{display: flex; align-items: center; margin-right: 15px;}
+/* 서치 임시 막기 */
+header > div > div .searchArea{display: none;}
 header > div > div .searchArea .searchBtn{width: 36px; height: 36px; background-image: url('../images/icon-search-white.png'); background-repeat: no-repeat; background-position: center; background-size: cover; text-indent: -9999px; margin-right: 5px;}
 header > div > div .searchArea div{width: 0; display: flex; align-items: center; overflow: hidden; transition: width 0.5s;}
 header > div > div .searchArea div.active{width: 303px;}

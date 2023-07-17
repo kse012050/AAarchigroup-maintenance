@@ -37,7 +37,7 @@
 
 /* 메인페이지 - 소개 */
 .mainPage .infoArea{color: white; z-index: 1; position: relative;}
-.mainPage .infoArea::before{content: ''; position: absolute; left: 50%; top: 0; width: 100%; height: calc(100% + 30px); transform: translate(-50% , 0); background: url('../../images/m-main-inforBG.png') no-repeat center / 100% 100%; z-index: -1;}
+.mainPage .infoArea::before{content: ''; position: absolute; left: 50%; top: 0; width: 100%; height: calc(100% + 38px); transform: translate(-50% , 0); background: url('../../images/m-main-inforBG.png') no-repeat center / 100% 100%; z-index: -1;}
 .mainPage .infoArea > div{padding: 60px 0 92px; position: relative;}
 .mainPage .infoArea > div h2{font-size: 28px; font-weight: 700; line-height: 40px; margin-bottom: 100px;}
 .mainPage .infoArea > div h2 small{display: block; max-width: 315px; font-size: 18px; line-height: 24px; font-weight: 500; margin-top: 28px;}
@@ -140,7 +140,7 @@
 .historyPage .basicPage > div .rightArea ul{position: absolute; left: 0; top: 0; opacity: 0; transition: 0.5s opacity; z-index: -1;}
 .historyPage .basicPage > div .rightArea ul.active{opacity: 1; z-index: 0;}
 .historyPage .basicPage > div .rightArea ul li{font-size: 13px; font-weight: 500; color: white; line-height: 18px; letter-spacing: -0.08em; display: flex;}
-.historyPage .basicPage > div .rightArea ul li time{font-weight: 400; color: #C7C7C7; margin-right: 55px;}
+.historyPage .basicPage > div .rightArea ul li time{font-weight: 400; color: #C7C7C7; margin-right: 55px; white-space: nowrap;}
 .historyPage .basicPage > div .rightArea ul li:not(:last-child){margin-bottom: 28px;}
 
 /* 컨텍트 , CI 페이지 공통*/

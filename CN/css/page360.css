@@ -141,7 +141,7 @@
 .historyPage .basicPage > div .rightArea ul{position: absolute; left: 0; top: 0; opacity: 0; transition: 0.5s opacity; z-index: -1;}
 .historyPage .basicPage > div .rightArea ul.active{opacity: 1; z-index: 0;}
 .historyPage .basicPage > div .rightArea ul li{font-size: 13px; font-weight: 500; color: white; line-height: 18px; letter-spacing: -0.08em; display: flex;}
-.historyPage .basicPage > div .rightArea ul li time{font-weight: 400; color: #C7C7C7; margin-right: 55px;}
+.historyPage .basicPage > div .rightArea ul li time{font-weight: 400; color: #C7C7C7; margin-right: 55px; white-space: nowrap;}
 .historyPage .basicPage > div .rightArea ul li:not(:last-child){margin-bottom: 28px;}
 
 
